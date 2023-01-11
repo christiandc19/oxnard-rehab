@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import './Hero.css'
 
-import HeroImage from '../../assets/hero-image.jpg'
+// import HeroImage from '../../assets/hero-image.jpg'
 
 
 
 const Hero = () => {
     return (
         <div className='hero'>
-            <img src={HeroImage} width="100%" alt='hero-pic'/>
+            {/* <img src={HeroImage} width="100%" alt='hero-pic'/> */}
 
             <div className="hero-container">
                 <div className="content">

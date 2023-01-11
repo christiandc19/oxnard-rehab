@@ -35,12 +35,13 @@ const ContactForm = () => {
                         <h1>GET IN TOUCH</h1><br />
                         {/* <p><AiOutlinePhone /><a href="tel:3234521224"> +1 (323) 452-1224  </a></p><br />  */}
                         {/* <p><AiOutlineMail /> info@domainName.com  </p><br /> */}
-                        <p><BsFillPinMapFill /> 3700 Sunset Ln, Suite 2, Antioch, CA 94509 </p><br />
+                        <p><BsFillPinMapFill /> 721 S. A Street, 1st Floor, Oxnard CA 93030 </p><br />
                         <p className="admission">Please call our admission department or fill out the form if you have any questions.</p>
                     </div>
 
                     <div className="iframe">
-                        <iframe title="map" width="700" height="250" id="gmap_canvas" src="https://maps.google.com/maps?width=100%25&amp;height=250&amp;hl=en&amp;q=68487%20E%20Palm%20Canyon%20Dr,%20STE%2044,%20Cathedral%20City%20CA%2092234+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">distance maps</a></iframe>
+
+                   <iframe title="map" width="700" height="250" id="gmap_canvas" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=721%20S.%20A%20Street,%201st%20Floor,%20Oxnard%20CA%2093030+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">distance maps</a></iframe>
                     </div>
                 </div>
 

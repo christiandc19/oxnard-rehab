@@ -16,7 +16,7 @@ const Cards = () => {
 
             <div className="cards-header container">
                 <h1>WE OFFER VARIOUS SERVICES </h1>
-                <p>At Palm Springs Rehab, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
+                <p>At Oxnard Rehab, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
             </div>
 
         <div className='cards'>
@@ -32,7 +32,7 @@ const Cards = () => {
                 <Fade top>
                     <ServicesCards
                         Image={Card2}
-                        CardName="SUBSTANCE USE TREATMETN"
+                        CardName="SUBSTANCE USE TREATMENT"
                         Description="We treat a multitude of substance use disorders. Whether the client is suffering from an alcohol addiction, prescription drug addiction, we can help."
                     />
                 </Fade>

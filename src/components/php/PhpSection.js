@@ -76,7 +76,7 @@ const PhpSection = () => {
         <br/><br/>
 
         <p>
-        At Contra Costa Rehab, we provide several other avenues of addiction treatment. In addition to our partial hospitalization program, we offer:</p>
+        At Oxnard Rehab, we provide several other avenues of addiction treatment. In addition to our partial hospitalization program, we offer:</p>
         <br />
         <ul>
             <li><p>Intensive Outpatient Program - IOP</p></li>

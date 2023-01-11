@@ -17,7 +17,7 @@ const IopSection = () => {
         <h1 className='header'>WHY CHOOSE AN IOP?</h1>
         <br/>
         <p>It is common for those struggling with addiction to not respond well to  residential treatment options. An intensive outpatient program may be the best alternative, as it can offer a high level of care and more accountability (removing patients from access to drugs/alcohol, enabling peers, etc.).
-        <br /> 
+        <br /> <br/>
         If the patient has a strong, supportive family and group of friends/peers, they will be able to undergo care with us, but also be able to live at home. </p>
         <br />
         <h1 className='header'>WHAT TO EXPECT THROUGHOUT THE PROGRAM</h1>
@@ -57,7 +57,7 @@ const IopSection = () => {
         <br/><br/>
 
         <p>
-        At Contra Costa Rehab, we provide several other avenues of addiction treatment. In addition to our partial hospitalization program, we offer:</p>
+        At Oxnard Rehab, we provide several other avenues of addiction treatment. In addition to our partial hospitalization program, we offer:</p>
         <br />
         <ul>
             <li><p>Partial Hospitalization Program - IOP</p></li>
