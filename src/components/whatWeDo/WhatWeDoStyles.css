@@ -1,0 +1,51 @@
+.wrap {
+  display: flex;
+  flex-wrap: wrap ;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.box {
+    height: auto;
+    width: 600px;
+    display: inline-block;
+    margin: 1rem;
+}
+
+.wrap .header {
+    text-align: center;
+    
+}
+
+.box img {
+    border-radius: 10px;
+}
+
+p {
+    font-size: 15px;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:375px) {
+
+    .box {
+        width: 300px;
+    }
+
+    .box img {
+        width: 100%;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .wrap .header {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+}
