@@ -6,7 +6,7 @@ import ContactForm from '../contact/ContactForm'
 import Therapy from '../../assets/therapy.jpg'
 import Staff from '../../assets/staff.jpg'
 import Clinic from '../../assets/clinic.jpg'
-import Work from '../../assets/employment-assistance2.png'
+import Work from '../../assets/employment-assistance.png'
 
 
 
