@@ -17,6 +17,7 @@
 .mission .content {
     position: absolute;
     top: 30%;
+    width: 60%;
 }
 
 .mission h1 {

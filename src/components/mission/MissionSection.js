@@ -21,7 +21,7 @@ const MissionSection = () => {
 
                             <Fade top>
                     <div className='thumbnail'>
-                        <img src={ Therapy } width="640" height="200" alt="Therapy Session" loading="lazy"/>
+                        <img src={ Therapy } width="640" height="160" alt="Therapy Session" loading="lazy"/>
                         <div>                   
                         <p>Therapy and support groups for either addiction or mental health disorders</p>
                         </div>
@@ -31,21 +31,21 @@ const MissionSection = () => {
 
                     <Fade bottom>
                     <div className='thumbnail'>
-                    <img src={ Staff } width="640" height="200" alt="Clinic Staff" loading="lazy"/>
+                    <img src={ Staff } width="640" height="160" alt="Clinic Staff" loading="lazy"/>
                     <p>Compassionate staff that is dedicated to your success</p>
                     </div>
                     </Fade>
 
                     <Fade top>
                     <div className='thumbnail'>
-                    <img src={ Clinic } width="640" height="200" alt="Bluecross  Logo" loading="lazy"/>
+                    <img src={ Clinic } width="640" height="160" alt="Bluecross  Logo" loading="lazy"/>
                     <p>Evidence-based practices that give you the best chance of recovery</p>
                     </div>
                     </Fade>
 
                     <Fade bottom>
                     <div className='thumbnail'>
-                    <img src={ Work } width="640" height="200" alt="People in Working Uniform" loading="lazy"/>
+                    <img src={ Work } width="640" height="160" alt="People in Working Uniform" loading="lazy"/>
                         <p>There are a variety of programs and organizations that fall under the umbrella of employment-based recovery support services.</p>  
                     </div>
                     </Fade>                          
