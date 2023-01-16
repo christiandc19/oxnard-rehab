@@ -1,11 +1,10 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import Fade from 'react-reveal/Fade';
-import './Php.css'
 
 const Php = () => {
     return (
-        <div className='php'>
+        <div className='php submenu'>
             <div className="container">
                 <div className="content">
                     <Fade top>

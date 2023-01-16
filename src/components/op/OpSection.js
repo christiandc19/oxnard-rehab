@@ -80,7 +80,7 @@ const OpSection = () => {
         <br/><br/>
 
         <p>
-        At Contra Costa Rehab, we provide several other avenues of addiction treatment. In addition to our partial hospitalization program, we offer:</p>
+        At Oxnard Treatment Center, we provide several other avenues of addiction treatment. In addition to our partial hospitalization program, we offer:</p>
         <br />
         <ul>
             <li><p>Partial Hospitalization Program - IOP</p></li>

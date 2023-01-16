@@ -45,7 +45,6 @@ const PhpSection = () => {
 {/* SECTION 2 */}
 
 <div className='wrap'>
-
 <Fade left>
     <div className="box">
         <img src={PhpSection2} width="600px" height="380px" alt="Palm Springs Rehab Logo" loading="lazy" />
@@ -76,7 +75,7 @@ const PhpSection = () => {
         <br/><br/>
 
         <p>
-        At Oxnard Rehab, we provide several other avenues of addiction treatment. In addition to our partial hospitalization program, we offer:</p>
+        At Oxnard Treatment Center, we provide several other avenues of addiction treatment. In addition to our partial hospitalization program, we offer:</p>
         <br />
         <ul>
             <li><p>Intensive Outpatient Program - IOP</p></li>

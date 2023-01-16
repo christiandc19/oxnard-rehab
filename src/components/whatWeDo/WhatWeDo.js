@@ -15,7 +15,7 @@ const WhatWeDo = () => {
     <div className="box left">
         <h1 className='title'>WHAT WE DO</h1>
         <br/>
-        <p>At Oxnard Rehab Center, we offer different levels of care based on each individual’s needs. Our programs consist of an intensive outpatient program (IOP) and a more demanding and structured partial hospitalization program (PHP). <br /> <br />You can be confident that our caring and professional staff will recommend the right level of care for you or your loved one.</p>
+        <p>At Oxnard Treatment Center, we offer different levels of care based on each individual’s needs. Our programs consist of an intensive outpatient program (IOP) and a more demanding and structured partial hospitalization program (PHP). <br /> <br />You can be confident that our caring and professional staff will recommend the right level of care for you or your loved one.</p>
         <br />
         <h1 className='header'>TREATMENT</h1>
         <br/>
@@ -34,7 +34,7 @@ const WhatWeDo = () => {
 
     <Fade right>
     <div className="box">
-        <img src={WhatWeDoImg} width="600px" height="500px" alt="Palm Springs Rehab Logo" loading="lazy" />
+        <img src={WhatWeDoImg} width="600px" height="480px" alt="Palm Springs Rehab Logo" loading="lazy" />
     </div>
     </Fade>
 </div>

@@ -40,8 +40,7 @@ const ContactForm = () => {
                     </div>
 
                     <div className="iframe">
-
-                   <iframe title="map" width="700" height="250" id="gmap_canvas" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=721%20S.%20A%20Street,%201st%20Floor,%20Oxnard%20CA%2093030+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">distance maps</a></iframe>
+                        <iframe title="map" width="700" height="250" id="gmap_canvas" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=721%20S.%20A%20Street,%201st%20Floor,%20Oxnard%20CA%2093030+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">distance maps</a></iframe>
                     </div>
                 </div>
 
@@ -51,7 +50,6 @@ const ContactForm = () => {
                         <input className="user-input" type="text" name='name' placeholder='Name' required />
                         <input className="user-input" type="text" name='email' placeholder='Email' required />
                         <input className="user-input" type="text" name='email' placeholder='Subject' required />
-
                         <textarea className="user-input email-input" name="message" rows="4" placeholder="How can we help?" required ></textarea>
                         <div className="submit-btn">
                             <button type='submit' className="btn-modal btn btn-primary">Send</button>

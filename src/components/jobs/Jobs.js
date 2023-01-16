@@ -1,10 +1,9 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
-import './Jobs.css'
 
 const Jobs = () => {
     return (
-        <div className='jobs'>
+        <div className='jobs submenu'>
             <div className="container">
                 <div className="content">
                     <Fade top>

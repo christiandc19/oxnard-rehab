@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap ;
   justify-content: center;
-  margin: 3rem 0;
+  margin: 1rem 0;
 }
 
 .box {
@@ -29,23 +29,27 @@ p {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:600px) {
 
-    .box {
-        width: 300px;
-    }
 
     .box img {
-        width: 100%;
+        display: none;
     }
 
     p {
         font-size: 14px;
-    }
-
-    .wrap .header {
-        font-size: 2rem;
         text-align: center;
     }
 
+    .left {
+        width: 100%;
+    }
+
+    .left h1 {
+        font-size: 2rem;
+    }
+
+.left button {
+    margin: 1rem auto;
+}
 }

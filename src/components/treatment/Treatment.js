@@ -22,9 +22,9 @@ const Treatment = () => {
 
             {/* -------------------------------- HERO -------------------------------------- */}
 
-            <div className='treatment'>
+            <div className='treatment main-menu'>
                 <div className="container">
-                    <div className="content">
+                    <div className="main-menu-content">
                         <Fade right>
                             <h1>TREATMENT</h1>
                         </Fade>

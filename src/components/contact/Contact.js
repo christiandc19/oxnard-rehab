@@ -1,7 +1,6 @@
 import React from "react";
 import Fade from 'react-reveal/Fade';
 
-import './Contact.css';
 import ContactForm from "./ContactForm";
 
 
@@ -10,9 +9,9 @@ const Contact = () => {
     return (
       <>
 
-<div className='contact-hero'>
+<div className='contact-hero main-menu'>
        <div className="container">
-            <div className="content">
+            <div className="main-menu-content">
             <Fade top>
                     <h1>Have Some Questions?</h1>
             </Fade>
