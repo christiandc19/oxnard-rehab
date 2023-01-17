@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/oxnard-rehab/static/css/main.6a9c6348.css",
-    "main.js": "/oxnard-rehab/static/js/main.962975f9.js",
+    "main.css": "/oxnard-rehab/static/css/main.178d4467.css",
+    "main.js": "/oxnard-rehab/static/js/main.e6870300.js",
     "static/media/PhpSection3.jpg": "/oxnard-rehab/static/media/PhpSection3.355a94b26b410c906fef.jpg",
     "static/media/footer-bg.webp": "/oxnard-rehab/static/media/footer-bg.82fabf297fc0244dc3a5.webp",
     "static/media/activity.jpg": "/oxnard-rehab/static/media/activity.33d7acdd84683e4be13f.jpg",
@@ -14,7 +14,6 @@
     "static/media/employment-assistance.png": "/oxnard-rehab/static/media/employment-assistance.f36d5a1e0fd48de437f9.png",
     "static/media/nav-logo.png": "/oxnard-rehab/static/media/nav-logo.bb592ce5649bd42f6de5.png",
     "static/media/staff.jpg": "/oxnard-rehab/static/media/staff.4d703a9340e5ca8aa595.jpg",
-    "static/media/IopSection2.jpg": "/oxnard-rehab/static/media/IopSection2.4863c590626f87924a2f.jpg",
     "static/media/whatwedo.jpg": "/oxnard-rehab/static/media/whatwedo.52d7a0147b76649d74aa.jpg",
     "static/media/OpSection1.jpg": "/oxnard-rehab/static/media/OpSection1.1c0d1281401aac860085.jpg",
     "static/media/IopSection1.jpg": "/oxnard-rehab/static/media/IopSection1.047d4dcaed4a7f5b0e89.jpg",
@@ -31,11 +30,11 @@
     "static/media/aetna.png": "/oxnard-rehab/static/media/aetna.ba1c7baa5f90d207ae2b.png",
     "static/media/bluecross.png": "/oxnard-rehab/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/oxnard-rehab/index.html",
-    "main.6a9c6348.css.map": "/oxnard-rehab/static/css/main.6a9c6348.css.map",
-    "main.962975f9.js.map": "/oxnard-rehab/static/js/main.962975f9.js.map"
+    "main.178d4467.css.map": "/oxnard-rehab/static/css/main.178d4467.css.map",
+    "main.e6870300.js.map": "/oxnard-rehab/static/js/main.e6870300.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a9c6348.css",
-    "static/js/main.962975f9.js"
+    "static/css/main.178d4467.css",
+    "static/js/main.e6870300.js"
   ]
 }
