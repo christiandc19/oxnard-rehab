@@ -53,6 +53,11 @@
     color:var(--primary-color) !important;
   }
 
+  li .submenu-header {
+    color: rgb(36, 131, 27);
+    font-weight: bolder;
+    text-decoration: underline;
+  }
 
 /* -----------------------------------------------------> SUB MENU */
 .sub__menus {
