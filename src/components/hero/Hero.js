@@ -21,7 +21,7 @@ const Hero = () => {
                         <h1>OXNARD REHAB</h1>
                     </Fade>
                     <Fade bottom>
-                        <h2 className='subtitle'>Mental Health  Treatment Facility </h2>
+                        <h2 className='subtitle'>SUBSTANCE ABUSE ADDICTION AND MENTAL HEALTH TREATMENT FACILITY</h2>
                     </Fade>
                         <p>Find your happiness and learn to put it first.</p>
                         <br />

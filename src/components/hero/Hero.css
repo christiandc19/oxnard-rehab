@@ -63,7 +63,8 @@
     }
     
     .hero h2 {
-        font-size: 35px;
+        font-size: 20px;
+        padding: 10px 0;
     }
 
     .hero p {
