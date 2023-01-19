@@ -3,7 +3,7 @@
     height: 120px;
     position: absolute;
     z-index: 10;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.4);
 }
 
 .navbar .container {
@@ -38,19 +38,19 @@
 }
 .navbar li {
     width: max-content;
-    padding: 1rem;
+    padding: .3rem 1rem;
     font-weight: 400;
     color: #fff;
 }
 
   .menu-item .sub__menus li a {
-    color: #000000 !important;
-    font-weight: 400;
-    line-height: 10px;
+    color: #353535;
+    font-size: 13px;
+    padding: -1rem ;
   }
 
   .menu-item .sub__menus li a:hover {
-    color:var(--primary-color) !important;
+    color: rgb(255, 123, 0) !important;
   }
 
   li .submenu-header {
@@ -60,6 +60,7 @@
     text-decoration: underline;
   }
 
+
 /* -----------------------------------------------------> SUB MENU */
 .sub__menus {
     position: absolute;
@@ -67,8 +68,8 @@
     background: white;
     border: 1px solid lavender;
     border-radius: 10px;
-    width: 280px;
-    /* left: -17px; */
+    width: 220px;
+    left: -17px;
     padding: 2px 0 0 0;
     margin-top: 10px;
     z-index: 1000;
@@ -84,7 +85,7 @@
   .sub__menus__arrows svg, .sub__menus__arrows__full svg {
     padding-top: 0px;
     position: absolute;
-    top: 19px;
+    top: 10px;
   }
 
 
@@ -114,8 +115,7 @@
     }
 
     .navbar li {
-        margin-right: 1rem;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .navbar button {
@@ -124,6 +124,18 @@
 
     .menu-item .sub__menus li a {
         font-size: 14px;
+      }
+
+      li .submenu-header {
+        font-size: 14px;
+      }
+
+      #submenu-item li {
+        padding: .2rem 1rem;
+      }
+
+      .sub__menus {
+        width: 230px;
       }
 
 }
