@@ -33,7 +33,7 @@ const ContactForm = () => {
                 <div className="map">
                     <div className="location">
                         <h1>GET IN TOUCH</h1><br />
-                        <p><AiOutlinePhone /><a href="tel:3234521224"> +1 (323) 792-0535 </a></p><br /> 
+                        <p><AiOutlinePhone /><a href="tel:3237920535"> +1 (323) 792-0535 </a></p><br /> 
                         {/* <p><AiOutlineMail /> info@domainName.com  </p><br /> */}
                         <p><BsFillPinMapFill /> 721 S. A Street, 1st Floor, Oxnard CA 93030 </p><br />
                         <p className="admission">Please call our admission department or fill out the form if you have any questions.</p>
