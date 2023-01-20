@@ -58,7 +58,7 @@ const IopSection = () => {
         <br/><br/>
 
         <p>
-        At Oxnard Treatment Center, we provide several other avenues of addiction treatment. In addition to our partial hospitalization program, we offer:</p>
+        At Helping Hands Treatment Center, we provide several other avenues of addiction treatment. In addition to our partial hospitalization program, we offer:</p>
         <br />
         <ul>
             <li><p>Partial Hospitalization Program - IOP</p></li>
