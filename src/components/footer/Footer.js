@@ -63,7 +63,7 @@ const Footer = () => {
 
 
                     <div className="col">
-                        <h3>SUBSTANCE ABUSE PROGRAMS</h3>
+                        <h3>SUBSTANCE ABUSE</h3>
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/substance-abuse-php'><p>Partial Hospitalization Program</p></Link>
                         </LinkRoll>
@@ -83,7 +83,7 @@ const Footer = () => {
 
 
                     <div className="col">
-                        <h3>MENTAL HEALTH PROGRAMS</h3>
+                        <h3>MENTAL HEALTH</h3>
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <Link to='/mental-health-php'><p>Partial Hospitalization Program</p></Link>
                         </LinkRoll>

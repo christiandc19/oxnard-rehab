@@ -27,14 +27,13 @@
 
 .thumbnail img {
     margin: 5px;
-    width: 200px;
     padding: 5px;
-    border: 1px solid var(--primary-color);
     border-radius: 1rem;
+    box-shadow: 10px 5px 5px rgb(129, 129, 129);
 }
 
 .thumbnail p {
-    width: 220px;
+    width: 310px;
 }
 
 .mission-section button {
@@ -54,6 +53,16 @@
     .mission-section p {
         font-size: 15px;
     }
+
+    .thumbnail img {
+        width: 150px;
+        height: 100px;
+    }
+    .thumbnail p {
+        width: 150px;
+        font-size: 12px;
+    }
+
 }
 
 

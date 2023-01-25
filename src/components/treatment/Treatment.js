@@ -67,15 +67,17 @@ const Treatment = () => {
 
 <div className='wrap'>
     
-    <Fade right>
+    <Fade left>
     <div className="box">
         <img src={Service2} width="600px" height="350px" alt="Palm Springs Rehab Logo" loading="lazy" />
     </div>
     </Fade>
 
-    <Fade left>
+    <Fade right>
     <div className="box left">
-        <br/>
+        
+        <h1> REVISIONS </h1>  
+        <br/>                
         <p>
         Some areas to be examined may be personal relationships, work, anger management, lack of power, financial burdens, separation from children, past trauma as it relates to present, school, etc. 
         </p>
@@ -100,15 +102,7 @@ const Treatment = () => {
 <div className='activity-container'>
 
                         <div className='activity-section'>
-                            <div className='revisions'>
-                                <h1> REVISIONS </h1>                  
-                                <p>
-                                    As mentioned above, the weekly summary reflective of the session between client and counselor/therapist will measure each treatment plan goal on a weekly basis. The client will also initial the weekly summary as this is a review of the treatment plan goals and objectives. Furthermore, clients may have new issues come up during treatment that were not identified at the time of assessment. Drug and alcohol counselors/therapists will develop new treatment plan goals as needed using this protocol whenever necessary.
-                                </p>
-                            </div>
-
-                            <div className='recreations'>
-                                <h1> RECREATIONS </h1>                                
+                            <div className='recreations container'>
                                 <p>
                                     As mentioned above, the weekly summary reflective of the session between client and counselor/therapist will measure each treatment plan goal on a weekly basis. The client will also initial the weekly summary as this is a review of the treatment plan goals and objectives. Furthermore, clients may have new issues come up during treatment that were not identified at the time of assessment. Drug and alcohol counselors/therapists will develop new treatment plan goals as needed using this protocol whenever necessary.
                                 </p>
@@ -118,6 +112,7 @@ const Treatment = () => {
 
             {/* ------------------------------ RECREATION --------------------------- */}
 
+                        <h1> RECREATIONS </h1>                                
 
                 <div className='activities'>
                     
