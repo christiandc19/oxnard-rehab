@@ -25,7 +25,7 @@ const Cards = () => {
                     <ServicesCards
                         Image={Card1}
                         CardName="MENTAL HEALTH TREATMENT​"
-                        Description="Clients suffer from both mental health disorders and addiction. Therefore, we provide treatment for co-occurring disorders, addressing both conditions simultaneously."
+                        Description="Some of our clients are here to attend to their mental health, and some come to us for help with addiction and sobriety. Depending on your needs, we offer treatment for co-occurring disorders that can address both mental health and addiction disorders at the same time."
                     />
                 </Fade>
 
@@ -33,7 +33,7 @@ const Cards = () => {
                     <ServicesCards
                         Image={Card2}
                         CardName="SUBSTANCE USE TREATMENT"
-                        Description="We treat a multitude of substance use disorders. Whether the client is suffering from an alcohol addiction, prescription drug addiction, we can help."
+                        Description="No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Oxnard Rehab Treatment Center."
                     />
                 </Fade>
 
@@ -41,7 +41,7 @@ const Cards = () => {
                     <ServicesCards
                         Image={Card3}
                         CardName="EMPLOYMENT / JOB ASSISTANCE"
-                        Description="There are a variety of programs and organizations that fall under the umbrella of employment-based recovery support services. Jobs Assistance is available."
+                        Description="We offer a variety of employment tools and resources to help you land on your feet and get hired at a great company in recovery."
                     />
                 </Fade>
             </div>
