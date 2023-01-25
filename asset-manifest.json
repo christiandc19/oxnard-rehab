@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/oxnard-rehab/static/css/main.81f4f481.css",
-    "main.js": "/oxnard-rehab/static/js/main.aa3fbef2.js",
+    "main.css": "/oxnard-rehab/static/css/main.8b7cabdc.css",
+    "main.js": "/oxnard-rehab/static/js/main.d8aa709b.js",
     "static/media/PhpSection3.jpg": "/oxnard-rehab/static/media/PhpSection3.355a94b26b410c906fef.jpg",
-    "static/media/footer-bg.webp": "/oxnard-rehab/static/media/footer-bg.82fabf297fc0244dc3a5.webp",
     "static/media/treatment-1.jpg": "/oxnard-rehab/static/media/treatment-1.9b93aa36872433733c19.jpg",
     "static/media/treatment-2.jpg": "/oxnard-rehab/static/media/treatment-2.6125ee1c93e30c1b25e6.jpg",
     "static/media/activity.jpg": "/oxnard-rehab/static/media/activity.33d7acdd84683e4be13f.jpg",
     "static/media/hero-image.jpg": "/oxnard-rehab/static/media/hero-image.b7fffeb2eadea5d671f9.jpg",
     "static/media/therapy.jpg": "/oxnard-rehab/static/media/therapy.16ffd31bf0d0f6a6a2d2.jpg",
-    "static/media/menu-bg.jpg": "/oxnard-rehab/static/media/menu-bg.c6e7984081f9c830cc5e.jpg",
     "static/media/PhpSection2.jpg": "/oxnard-rehab/static/media/PhpSection2.4ada094a78b3d7789ee2.jpg",
+    "static/media/footer-bg.jpg": "/oxnard-rehab/static/media/footer-bg.13c0e86285f91edfb0f3.jpg",
     "static/media/submenu-bg.jpg": "/oxnard-rehab/static/media/submenu-bg.c819fde42a20f198a2db.jpg",
     "static/media/employment-assistance.png": "/oxnard-rehab/static/media/employment-assistance.f36d5a1e0fd48de437f9.png",
     "static/media/nav-logo.png": "/oxnard-rehab/static/media/nav-logo.bb592ce5649bd42f6de5.png",
     "static/media/staff.jpg": "/oxnard-rehab/static/media/staff.4d703a9340e5ca8aa595.jpg",
+    "static/media/menu-bg.jpg": "/oxnard-rehab/static/media/menu-bg.02564f18799913502ada.jpg",
     "static/media/whatwedo.jpg": "/oxnard-rehab/static/media/whatwedo.52d7a0147b76649d74aa.jpg",
     "static/media/OpSection1.jpg": "/oxnard-rehab/static/media/OpSection1.1c0d1281401aac860085.jpg",
     "static/media/IopSection1.jpg": "/oxnard-rehab/static/media/IopSection1.047d4dcaed4a7f5b0e89.jpg",
@@ -31,11 +31,11 @@
     "static/media/aetna.png": "/oxnard-rehab/static/media/aetna.ba1c7baa5f90d207ae2b.png",
     "static/media/bluecross.png": "/oxnard-rehab/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/oxnard-rehab/index.html",
-    "main.81f4f481.css.map": "/oxnard-rehab/static/css/main.81f4f481.css.map",
-    "main.aa3fbef2.js.map": "/oxnard-rehab/static/js/main.aa3fbef2.js.map"
+    "main.8b7cabdc.css.map": "/oxnard-rehab/static/css/main.8b7cabdc.css.map",
+    "main.d8aa709b.js.map": "/oxnard-rehab/static/js/main.d8aa709b.js.map"
   },
   "entrypoints": [
-    "static/css/main.81f4f481.css",
-    "static/js/main.aa3fbef2.js"
+    "static/css/main.8b7cabdc.css",
+    "static/js/main.d8aa709b.js"
   ]
 }
