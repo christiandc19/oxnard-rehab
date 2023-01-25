@@ -40,9 +40,9 @@
 .contact-container form {
     height: 39rem;
     width: 300px;
-    /* background: url('../../assets/menu-bg.jpg') no-repeat center center/cover; */
+    background: url('../../assets/menu-bg.jpg') no-repeat center left/cover;
     border-radius: 1rem;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(66, 156, 216);
 }
 
 form {

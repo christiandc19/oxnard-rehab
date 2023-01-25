@@ -11,7 +11,7 @@ const Mission = () => {
                     <h1>MISSION</h1>
                     </Fade>
                     <Fade bottom>
-                    <p>We strive to make overcoming addiction achievable by focusing on your comfort and safety above all. We use evidence-based medical practices and a holistic, comprehensive approach to healing through guidance, compassion, and community.</p>
+                    <p>We strive to make overcoming addiction achievable by focusing on your sobriety. We use proven medical practices and a comprehensive approach to healing through better guidance, greater compassion, and a stronger community.</p>
                     </Fade>
                 <div>
                 <Link to="/treatment">
