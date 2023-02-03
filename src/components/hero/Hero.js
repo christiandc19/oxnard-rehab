@@ -5,7 +5,7 @@ import './Hero.css'
 
 // import BgVideo from '../../assets/hero-vbg.mp4'
 
-import wavesOpacity from '../../assets/wavesOpacity.svg'
+import waves from '../../assets/waves.svg'
 
 
 
@@ -18,7 +18,7 @@ const Hero = () => {
         <div className='hero'>
 
         <div className='hero-divider'>
-                <img src={wavesOpacity} loading="lazy" repeat-x alt='wave divider'/>
+                <img src={waves} loading="lazy" repeat-x alt='wave divider'/>
             </div>
 
 
