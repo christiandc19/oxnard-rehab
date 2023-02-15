@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/oxnard-rehab/static/css/main.09d3cfd8.css",
-    "main.js": "/oxnard-rehab/static/js/main.05ece980.js",
+    "main.css": "/oxnard-rehab/static/css/main.2957268e.css",
+    "main.js": "/oxnard-rehab/static/js/main.5b89567c.js",
     "static/media/whatwedo.png": "/oxnard-rehab/static/media/whatwedo.bc99304c70e92530ca15.png",
     "static/media/hero-bg.jpg": "/oxnard-rehab/static/media/hero-bg.7bee57443b3234673355.jpg",
     "static/media/whatwedo2.png": "/oxnard-rehab/static/media/whatwedo2.960c76ca1d89af0acc4c.png",
@@ -15,7 +15,6 @@
     "static/media/menu-bg-mission.jpg": "/oxnard-rehab/static/media/menu-bg-mission.a97b6cf56b6d28228331.jpg",
     "static/media/treatment-1.jpg": "/oxnard-rehab/static/media/treatment-1.9b93aa36872433733c19.jpg",
     "static/media/treatment-2.jpg": "/oxnard-rehab/static/media/treatment-2.6125ee1c93e30c1b25e6.jpg",
-    "static/media/activity.jpg": "/oxnard-rehab/static/media/activity.18cf9f92ce0257180036.jpg",
     "static/media/team.jpg": "/oxnard-rehab/static/media/team.24202f3813533aeb44a6.jpg",
     "static/media/menu-bg-about.jpg": "/oxnard-rehab/static/media/menu-bg-about.382410bc0a4324107cd8.jpg",
     "static/media/staff.jpg": "/oxnard-rehab/static/media/staff.05fa3028431c1d3d0788.jpg",
@@ -39,11 +38,11 @@
     "static/media/bluecross.png": "/oxnard-rehab/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/oxnard-rehab/index.html",
     "static/media/waves.svg": "/oxnard-rehab/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.09d3cfd8.css.map": "/oxnard-rehab/static/css/main.09d3cfd8.css.map",
-    "main.05ece980.js.map": "/oxnard-rehab/static/js/main.05ece980.js.map"
+    "main.2957268e.css.map": "/oxnard-rehab/static/css/main.2957268e.css.map",
+    "main.5b89567c.js.map": "/oxnard-rehab/static/js/main.5b89567c.js.map"
   },
   "entrypoints": [
-    "static/css/main.09d3cfd8.css",
-    "static/js/main.05ece980.js"
+    "static/css/main.2957268e.css",
+    "static/js/main.5b89567c.js"
   ]
 }
