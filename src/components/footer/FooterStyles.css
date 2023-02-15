@@ -47,6 +47,9 @@
 
 .footer h3 {
     color: var(--primary-color);
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+    text-transform: uppercase;
 }
 
 .footer .col-container {
@@ -56,15 +59,11 @@
     width: 100%;
 }
 
-.footer h3 {
-    margin: 1rem 0 2rem 0;
-    text-transform: uppercase;
-}
-
 
 .footer p {
     margin: .5rem 0;
     color: white;
+    text-align: center;
 }
 
 .footer form {
@@ -108,8 +107,9 @@
 }
 
 
-.copyright p{
+.copyright p {
     color: white;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 940px) {
@@ -125,9 +125,14 @@
         grid-column: 1 / span 2;
     }
 
-    /* .logo-footer img{
-        width: 50%;
-    } */
+    .footer h3 {
+        font-size: 14px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+
 }
 
 

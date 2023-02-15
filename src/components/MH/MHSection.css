@@ -116,6 +116,11 @@ font-family: 'Montserrat', sans-serif;
 }
 
 
+.mh-tile span {
+  font-weight: 800;
+  color: white;
+}
+
 @media (max-width: 940px) {
   .mh-card-wrap {
     width: 100%;
@@ -123,7 +128,7 @@ font-family: 'Montserrat', sans-serif;
 
   .mh-tile { 
     width: 320px;
-    height:280px;
+    height:350px;
   }
 
 }

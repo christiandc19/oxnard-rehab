@@ -121,6 +121,12 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   font-family: 'Montserrat', sans-serif;
 }
 
+.sa-tile span {
+  font-weight: 800;
+  color: white;
+}
+
+
 @media (max-width: 940px) {
   .sa-card-wrap {
     width: 100%;
