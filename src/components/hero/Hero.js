@@ -1,50 +1,40 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
+
+
+
+
+
+import Slide1 from '../../assets/slider1.jpg'
+import Slide2 from '../../assets/slider2.jpg'
+import Slide3 from '../../assets/slider3.jpg'
+
 import './Hero.css'
-
-// import BgVideo from '../../assets/hero-vbg.mp4'
-
-import waves from '../../assets/waves.svg'
-
-
 
 const Hero = () => {
     return (
-<>        
+        <>
+<div className="slider">
+	<ul>
+		<li>
+            <img src={Slide1} alt="Conselling Session with a patient" loading="lazy" />
+        </li>
+		<li><img src={Slide2} alt="Conselling Session with a patient" loading="lazy" /></li>
+		<li><img src={Slide3} alt="Conselling Session with a patient" loading="lazy" /></li>
+	</ul>
 
+    <div className='hero-caption'> 
+        <h1>WELCOME TO OXNARD REHAB</h1>
+        <h2>We Believe In Effective Therapy</h2>
+        <button>
+            Call us
+        </button>
+    </div>
 
+</div>
 
-        <div className='hero'>
-
-        <div className='hero-divider'>
-                <img src={waves} loading="lazy" repeat-x alt='wave divider'/>
-            </div>
-
-
-            <div className="hero-container">
-                <div className="content">
-                        <h1 className="animate-charcter">OXNARD REHAB</h1>
-                    <Fade left>
-                        <h2 className='subtitle'>Substance Abuse Addiction and <br/>Mental Health Treatment Facility</h2>
-                    </Fade>
-                        <br />
-                        <div className='hero-btn'>
-                        <Link to="/contact">
-                        <button>Get an Appointment</button>
-                    </Link>
-                    </div>
-                    <br />
-                    <Fade bottom>
-                        <p>Find your happiness and learn to put it first.</p>
-                    </Fade>
-                </div>
-            </div>
-        </div>
-
-
-</>
-
+        </>
     )
 }
 

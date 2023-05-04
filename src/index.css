@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
-  --primary-color: #e27720f1;
-  --primary-dark: #0d2154;
-  --secondary-color: #46a828;
+  --primary-color: rgb(36, 128, 128);
+  --primary-dark: #022204;
+  --secondary-color: #0f746b;
 
 }
 
@@ -21,11 +21,11 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 code {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 ul {
@@ -56,7 +56,7 @@ h1 {
 
 h2 {
   font-size: 25px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: var(--primary-color);
 }
 
@@ -64,26 +64,27 @@ h2 {
   max-width: 1240px;
   margin: auto;
   height: 100%;
-  position: relative;
+  /* position: relative; */
 }
 
 button {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding: .7rem 3rem;
   margin: 1rem 0;
   background-color: var(--primary-color);
   border: 1px solid var(--primary-color);
   color: #f8f8f8;
+  text-transform: uppercase;
   font-size: 1rem;
   font-weight: 500;
-  border-radius: 20px;
+  border-radius: 5px;
   cursor:pointer;
 
 }
 
 button:hover {
-  background-color: #06517c;
-  border: 1px solid #06517c;
+  background-color: #0c4b14;
+  border: 1px solid #0c4b14;
 }
 
 span {
@@ -297,6 +298,7 @@ margin: 0px 5px;
 }
 }
 
+
 /* Wave Divider - SA and MH Hero Image */
 
 .hero-divider {
@@ -311,6 +313,8 @@ margin: 0px 5px;
 
 .hero-divider img {
   width: 100%;
+
+
 }
 
 @media screen and (max-width: 940px) {

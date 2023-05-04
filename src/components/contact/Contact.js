@@ -1,7 +1,9 @@
 import React from "react";
 import Fade from 'react-reveal/Fade';
 
-import ContactForm from "./ContactForm";
+// import ContactForm from "./ContactForm";
+import NodeMailer from "./NodeMailer";
+
 import './Contact.css'
 
 import Wave from '../../assets/waves.svg'
@@ -28,7 +30,10 @@ const Contact = () => {
             </div>
      </div>
 
-      <ContactForm />
+
+      <NodeMailer />
+
+      {/* <ContactForm /> */}
 
       </>
     )
