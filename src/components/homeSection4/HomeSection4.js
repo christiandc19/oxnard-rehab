@@ -12,7 +12,7 @@ const HomeSection4 = () => {
             <div className='homeSection4-left'>
                 <h1>WHAT WE DO</h1>
                 {/* <h2>Quality Care from Quality Experts.</h2> */}
-                <p>At Palm Springs Rehab, we offer different levels of care based on each individual’s needs. Our programs consist of an intensive outpatient program (IOP) and a more demanding and structured partial hospitalization program (PHP). <br /> <br /> You can be confident that our caring and professional staff will recommend the right level of care for you or your loved one.
+                <p>At Oxnard Rehab, we offer different levels of care based on each individual’s needs. Our programs consist of an intensive outpatient program (IOP) and a more demanding and structured partial hospitalization program (PHP). <br /> <br /> You can be confident that our caring and professional staff will recommend the right level of care for you or your loved one.
                 </p> <br />
 
                 <h1>TREATMENT</h1>

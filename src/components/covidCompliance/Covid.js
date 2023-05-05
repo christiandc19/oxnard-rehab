@@ -15,7 +15,7 @@ const covid = () => {
             </div>
 
             <div className='covid-description'>
-                <h1>Palm Springs Rehab Treatment Center is Covid 19 Compliant</h1>
+                <h1>Oxnard Rehab Treatment Center is Covid 19 Compliant</h1>
             </div>
             
         </div>

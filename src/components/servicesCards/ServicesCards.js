@@ -27,7 +27,7 @@ const ServicesCards2 = () => {
                 </div>
 
                 <div className='header-right'>
-                  <p>At <span>Palm Springs Rehab Treatment Center,</span>  clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
+                  <p>At <span>Oxnard Rehab Treatment Center,</span>  clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
                 </div>
 </div>
 
@@ -59,7 +59,7 @@ const ServicesCards2 = () => {
       <div className='drop2-header'>
         <h4>SUBSTANCE ABUSE TREATMENT​</h4>
       </div>
-      <p>No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Palm Springs Rehab.</p>
+      <p>No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Oxnard Rehab.</p>
 
       <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
       <Link to="/substance-abuse">

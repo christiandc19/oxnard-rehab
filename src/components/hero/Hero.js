@@ -25,8 +25,11 @@ const Hero = () => {
 	</ul>
 
     <div className='hero-caption'> 
+    <fade left>
         <h1>WELCOME TO OXNARD REHAB</h1>
         <h2>We Believe In Effective Therapy</h2>
+    </fade>
+
         <button>
             Call us
         </button>

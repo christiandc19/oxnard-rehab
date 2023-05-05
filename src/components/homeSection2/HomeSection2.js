@@ -10,13 +10,11 @@ const HomeSection2 = () => {
       <div className='homeSection2 '>
         <div className='homeSection2-content'>
             <div className='homeSection2-left'>
-            <img src={HomeSection2Image} loading="lazy" alt='psychologist'/>
-            </div>
 
-            <div className='homeSection2-right'>
-                <h1>ABOUT PALM SPRINGS REHAB</h1>
-                <h2>Quality Care from Quality Experts.</h2>
-                <p>At Palm Springs Rehab, we provide safe and comfortable medical detox services for those struggling with addiction.</p> <br /> <br />
+
+            <h1>ABOUT OXNARD REHAB</h1>
+                <h2>Here to Help You Find a Path Forward.</h2>
+                <p>At Oxnard Rehab, we provide safe and comfortable medical detox services for those struggling with addiction.</p> <br /> <br />
                              
                 <div className='checklist'>
                     <div className='homeSection2-icon'><BsCheckLg />
@@ -41,6 +39,14 @@ const HomeSection2 = () => {
                         <p> The doctor prescribes a series of personalized medications to reduce the severity of withdrawal symptoms, slowly tapering off over time.</p>
                     </div>
                 </div>                       
+            </div>
+
+
+            <div className='homeSection2-right'>
+                             
+
+                                <img src={HomeSection2Image} loading="lazy" alt='psychologist'/>
+
 
                    
             </div>

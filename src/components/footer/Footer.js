@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="container">
                 <div className="top">
                     <div className="logo-footer">
-                    <img src={logo} width="90px" height="90px" alt="Palm Springs Rehab Logo" loading="lazy"/>
+                    <img src={logo} width="90px" height="90px" alt="Oxnard Rehab Logo" loading="lazy"/>
                     </div>
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                         <BsFillArrowUpCircleFill className='icon' />
@@ -112,7 +112,7 @@ const Footer = () => {
                         </div>
                     </form> */}
                 </div>
-                <p className='copyright'><p>&copy; 2023 Palm Springs Rehab Treatment Center. All rights reserved</p></p>
+                <p className='copyright'><p>&copy; 2023 Oxnard Rehab Treatment Center. All rights reserved</p></p>
 
 
             </div>

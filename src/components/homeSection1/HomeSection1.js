@@ -10,10 +10,10 @@ const HomeSection1 = () => {
       
         <div className='homeSection1'>
             <div className='homeSection1-content'>
-                <div className='homeSection1-header container'>
+                {/* <div className='homeSection1-header container'>
                     <h1>We Have More Than 10 Years of Professional Experience in Mental Health and Substance Abuse Treatment</h1>
-                    <p>At Palm Springs Rehab Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment.</p>
-                </div>
+                    <p>At Oxnard Rehab Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment.</p>
+                </div> */}
 
                 <div className='homeSection1-flexbox'>
                     <div className='homeSection1-flexItem homeSection1-flexItem1'>

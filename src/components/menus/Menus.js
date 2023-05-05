@@ -17,8 +17,8 @@ const Menus = () => {
     <>
 
 <div className="mh-cards-header container">
-                <h1>Palm Springs REHAB TREATMENT CENTER OFFERS VARIOUS MENTAL HEALTH PROGRAMS </h1>
-                <p>At Palm Springs Rehab Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
+                <h1>Oxnard Rehab TREATMENT CENTER OFFERS VARIOUS MENTAL HEALTH PROGRAMS </h1>
+                <p>At Oxnard Rehab Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
             </div>
 
 <div class="mh-card-wrap">
@@ -45,7 +45,7 @@ const Menus = () => {
 </Fade>
   <div class="mh-text">
   <h1>Intensive Outpatient Program</h1>
-  <p class="mh-animate-text">No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Palm Springs Rehab.</p>
+  <p class="mh-animate-text">No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Oxnard Rehab.</p>
   <div class="mh-animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/mental-health-iop">
