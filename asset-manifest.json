@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/oxnard-rehab/static/css/main.8e45081e.css",
-    "main.js": "/oxnard-rehab/static/js/main.511b60c7.js",
+    "main.css": "/oxnard-rehab/static/css/main.e796f8f0.css",
+    "main.js": "/oxnard-rehab/static/js/main.64a08036.js",
     "static/media/slider2.jpg": "/oxnard-rehab/static/media/slider2.6397801344c41217c667.jpg",
     "static/media/home-call.png": "/oxnard-rehab/static/media/home-call.8b8c385bbbf054ba9999.png",
     "static/media/slider1.jpg": "/oxnard-rehab/static/media/slider1.5f8fd7ff486d54db9e0c.jpg",
@@ -44,11 +44,11 @@
     "static/media/bluecross.png": "/oxnard-rehab/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/oxnard-rehab/index.html",
     "static/media/waves.svg": "/oxnard-rehab/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.8e45081e.css.map": "/oxnard-rehab/static/css/main.8e45081e.css.map",
-    "main.511b60c7.js.map": "/oxnard-rehab/static/js/main.511b60c7.js.map"
+    "main.e796f8f0.css.map": "/oxnard-rehab/static/css/main.e796f8f0.css.map",
+    "main.64a08036.js.map": "/oxnard-rehab/static/js/main.64a08036.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e45081e.css",
-    "static/js/main.511b60c7.js"
+    "static/css/main.e796f8f0.css",
+    "static/js/main.64a08036.js"
   ]
 }
