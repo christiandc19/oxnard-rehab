@@ -1,6 +1,6 @@
 
 .homeSection1 {
-    padding: 31.5rem 0 0 0;
+    margin: -10rem 0 0 0;
     position: relative;
     z-index: 4;
 
@@ -99,10 +99,6 @@
         width: 100%;
         margin: 0 1rem;
         border-radius: 0;
-    }
-
-    .homeSection1 {
-        padding: 40rem 0 0 0;
     }
 
     .homeSection1-flexItem {
