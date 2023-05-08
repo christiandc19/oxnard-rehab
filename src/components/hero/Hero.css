@@ -116,6 +116,7 @@ button {
 button:hover {
   background-color: #6fc5ff;
   box-shadow: 0 0 20px #6fc5ff50;
+  border: none;
 }
 
 button:active {

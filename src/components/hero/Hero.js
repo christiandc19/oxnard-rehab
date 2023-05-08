@@ -6,9 +6,9 @@ import Fade from 'react-reveal/Fade';
 
 
 
-import Slide1 from '../../assets/slider1.jpg'
-import Slide2 from '../../assets/slider2.jpg'
-import Slide3 from '../../assets/slider3.jpg'
+import Slide1 from '../../assets/slider1-min.jpg'
+import Slide2 from '../../assets/slider2-min.jpg'
+import Slide3 from '../../assets/slider3-min.jpg'
 
 import './Hero.css'
 
@@ -25,14 +25,16 @@ const Hero = () => {
 	</ul>
 
     <div className='hero-caption'> 
-    <fade left>
+    <Fade left>
         <h1>WELCOME TO OXNARD REHAB</h1>
         <h2>We Believe In Effective Therapy</h2>
-    </fade>
+    </Fade>
 
+        <Link to='/contact'>
         <button>
             Call us
         </button>
+        </Link>
     </div>
 
 </div>
