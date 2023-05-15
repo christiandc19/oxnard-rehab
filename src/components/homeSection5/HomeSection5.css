@@ -58,7 +58,7 @@
 
   .homeSection5-item {
     width: 400px;
-    height: 350px;
+    height: auto;
     background-color: rgba(255, 253, 253, 0.322);
     padding: 2rem;
   }
@@ -87,11 +87,18 @@
 
 
 
-  @media screen and (max-width:700px) {
+  @media screen and (max-width:940px) {
     .homeSection5-item {
         width: 100%;
         margin: 1rem;
       }
+
+      .homeSection5-cards {
+        gap: 1rem;
+        padding: 1rem 0 2rem 0;
+      }
+    
+
     
   }
 
