@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/oxnard-rehab/static/css/main.e612db64.css",
+    "main.css": "/oxnard-rehab/static/css/main.8cc146ae.css",
     "main.js": "/oxnard-rehab/static/js/main.3b24d7f7.js",
     "static/media/home-call.png": "/oxnard-rehab/static/media/home-call.8b8c385bbbf054ba9999.png",
     "static/media/activities-min.png": "/oxnard-rehab/static/media/activities-min.6296b11206d33e19d904.png",
@@ -44,11 +44,11 @@
     "static/media/bluecross.png": "/oxnard-rehab/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/oxnard-rehab/index.html",
     "static/media/waves.svg": "/oxnard-rehab/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.e612db64.css.map": "/oxnard-rehab/static/css/main.e612db64.css.map",
+    "main.8cc146ae.css.map": "/oxnard-rehab/static/css/main.8cc146ae.css.map",
     "main.3b24d7f7.js.map": "/oxnard-rehab/static/js/main.3b24d7f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.e612db64.css",
+    "static/css/main.8cc146ae.css",
     "static/js/main.3b24d7f7.js"
   ]
 }
