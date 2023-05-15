@@ -60,7 +60,7 @@ const ContactForm = () => {
     
     <div class="get_form_inner2">
             <h2>CALL US</h2>
-            <p><AiOutlinePhone /><a href="tel:3233295006"> +1 (123) 329-5006</a></p>
+            <p><AiOutlinePhone /><a href="tel:3237920535"> +1 (123) 792-0535</a></p>
     </div>
 
     <div class="get_form_inner2">
@@ -70,7 +70,7 @@ const ContactForm = () => {
 
     <div class="get_form_inner2">
             <h2>LOCATION</h2>
-            <p><BsFillPinMapFill /> 37112 Maple Street, Palm Springs CA 95841</p>
+            <p><BsFillPinMapFill /> 721 S. A Street, 1st Floor, Oxnard CA 93030</p>
     </div>
 
 </div>

@@ -48,6 +48,7 @@
 .footer h3 {
     color: white;
     text-align: center;
+    font-size: 1rem;
 }
 
 .footer .col-container {
@@ -117,9 +118,6 @@
 
 @media screen and (max-width: 940px) {
 
-    .footer h3 {
-        font-size: 14px;
-    }
 
     .footer p {
         font-size: 12px;

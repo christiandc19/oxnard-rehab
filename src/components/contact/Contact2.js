@@ -43,14 +43,14 @@ const ContactForm = () => {
         <div class="address details">
           <i class="fas fa-map-marker-alt"></i>
           <div class="topic">Address</div><br/>
-          <div class="text-one">37112 Maple Street</div>
-          <div class="text-two">Palm Springs CA 95841</div>
+          <div class="text-one">721 S. A Street, 1st Floor, </div>
+          <div class="text-two">Oxnard CA 93030</div>
         </div>
 
         <div class="phone details">
           <i class="fas fa-phone-alt"></i>
           <div class="topic">Phone</div><br/>
-          <div class="text-one"><a href="tel:3233304771"> +1 (323) 330-4771</a></div>
+          <div class="text-one"><a href="tel:3237920535"> +1 (323) 792-0535</a></div>
         </div>
 
         <div class="email details">
