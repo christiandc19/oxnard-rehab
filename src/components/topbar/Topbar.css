@@ -1,0 +1,88 @@
+.topbar {
+    width: 100%;
+    padding: .5rem;
+    background-color: #c2c5a3;
+}
+
+
+
+.topbar .topbar-content {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+
+.topbar .topbar-content p {
+    margin: auto;
+    font-size: 14px;
+    color: hsla( 0,0%,0% ,1);
+}
+
+.topbar .bar-box1 {
+    display: flex;
+    border-right: 1px solid rgba(247, 243, 243, 0.26);
+    margin: auto;
+    padding: 0 1rem;
+
+}
+
+.topbar .bar-box1 span {
+    font-size: 16px;
+    color: hsla( 0,0%,0% ,1);
+}
+
+.topbar .bar-box2 {
+    display: flex;
+    border-right: 1px solid rgba(247, 243, 243, 0.26);
+    margin: auto;
+    padding: 0 1rem;
+}
+
+.topbar .bar-box2 span {
+    font-size: 16px;
+    color: hsla( 0,0%,0% ,1);
+}
+
+
+.topbar .bar-box3 {
+    display: flex;
+    width: auto;
+    margin: auto;
+    padding: 0 1rem;
+
+}
+
+.topbar .bar-box3 span {
+    margin: auto;
+    font-size: 16px;
+    color: hsla( 0,0%,0% ,1);
+    padding: 0 .3rem;
+}
+
+.topbar .number a {
+    color: black;
+}
+
+@media screen and (max-width: 1000px) {
+    .topbar .hide {
+        display: none;
+    }
+
+    .topbar .bar-box2 span {
+        font-size: 1rem;
+    }
+    
+    .topbar .bar-box2 p {
+        font-size: 12px;
+    }
+
+    .topbar .bar-box3 span {
+        font-size: 1rem;
+    }
+    
+    .topbar .bar-box3 p {
+        font-size: 12px;
+    }
+
+}

@@ -2,24 +2,28 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 import './Treatment.css'
 
-import Wave from '../../assets/waves.svg'
-
+import Contact2 from '../contact/Contact2';
+import TreatmentSection from './TreatmentSection';
 
 const Treatment = () => {
     return (
         <>
 
-        <div className='treatment main-menu'>
-            <div className='hero-divider'>
-                <img src={Wave} loading="lazy" alt='wave divider' repeat-x/>
+
+{/* -------------------------------- HERO -------------------------------------- */}
+
+        <div className='treatment'>
+
+            <div className="treatment-content">
+                <Fade right>
+                    <h1>TREATMENT PROGRAMS</h1>
+                    <p>Treatment Planning for Long-Lasting Recovery</p>
+                </Fade>
             </div>
-                    <div className="treatment-content">
-                        <Fade right>
-                            <h1>TREATMENT</h1>
-                        </Fade>
-                        
-                    </div>
-                </div>
+        </div>
+
+        <TreatmentSection />
+        <Contact2 />
         </>
     )
 }

@@ -17,4 +17,12 @@
   text-align: justify;
 }
 
+/* MEDIA QUERIES */
 
+@media screen and (max-width:700px) {
+
+  .PanicDisorder-section-header h1 {
+      text-align: center;
+  }
+  
+  }

@@ -2,7 +2,7 @@ import React from 'react'
 import ContactForm from '../contact/ContactForm'
 
 import './ASDSection.css'
-import { FaRegStar } from 'react-icons/fa';
+import { BsCheck } from 'react-icons/bs';
 
 const ASDSection = () => {
   return (
@@ -26,29 +26,29 @@ const ASDSection = () => {
                 <h5>MENTAL</h5>
                 <p>
                 <ul><br/>
-                <li><FaRegStar className='star'/> Negative mood swings.</li>
-                <li><FaRegStar className='star'/> Inability to focus.</li>
-                <li><FaRegStar className='star'/> Distortion of reality.</li>
-                <li><FaRegStar className='star'/> Psychologic distress.</li>
-                <li><FaRegStar className='star'/> Flashbacks of the traumatic event.</li>
-                <li><FaRegStar className='star'/> Avoiding certain related places, people, or memories.</li>
+                <li><BsCheck className='star'/> Negative mood swings.</li>
+                <li><BsCheck className='star'/> Inability to focus.</li>
+                <li><BsCheck className='star'/> Distortion of reality.</li>
+                <li><BsCheck className='star'/> Psychologic distress.</li>
+                <li><BsCheck className='star'/> Flashbacks of the traumatic event.</li>
+                <li><BsCheck className='star'/> Avoiding certain related places, people, or memories.</li>
                 </ul><br/>
                 
                 <h5>PHYSICAL</h5>
               
                 <ul><br/>
-                <li><FaRegStar className='star'/> Chest pain.</li>
-                <li><FaRegStar className='star'/> Headaches.</li>
-                <li><FaRegStar className='star'/> Trouble sleeping.</li>
-                <li><FaRegStar className='star'/> Difficulty breathing.</li>
-                <li><FaRegStar className='star'/> Heart palpitation.</li>
+                <li><BsCheck className='star'/> Chest pain.</li>
+                <li><BsCheck className='star'/> Headaches.</li>
+                <li><BsCheck className='star'/> Trouble sleeping.</li>
+                <li><BsCheck className='star'/> Difficulty breathing.</li>
+                <li><BsCheck className='star'/> Heart palpitation.</li>
                 </ul><br/>
 
                 <h5>BEHAVIOR</h5>
               
                 <ul><br/>
-                <li><FaRegStar className='star'/> Dissociative symptoms (Numbness, Isolation, Disconnection from others)</li>
-                <li><FaRegStar className='star'/> Exaggerated response to external stimuli related to the event.</li>
+                <li><BsCheck className='star'/> Dissociative symptoms (Numbness, Isolation, Disconnection from others)</li>
+                <li><BsCheck className='star'/> Exaggerated response to external stimuli related to the event.</li>
                 </ul>
                 </p>
 </div>
@@ -58,28 +58,28 @@ const ASDSection = () => {
                 <p>Diagnosing ASD typically comes after displaying at least 9 of these symptoms consistently for 3 days and up to 1 month after the traumatic event: <br/> <br/>
                 <h5>RELATIONSHIP TO SELF</h5>
                 <ul><br/>
-                <li><FaRegStar className='star'/> Trouble concentrating.</li>
-                <li><FaRegStar className='star'/> Avoiding distressing memories.</li>
-                <li><FaRegStar className='star'/> Memory loss of the traumatic event.</li>
-                <li><FaRegStar className='star'/> Avoiding external reminders of the traumatic event.</li>
-                <li><FaRegStar className='star'/> Recurring, involuntary memories of the traumatic event.</li>
-                <li><FaRegStar className='star'/> Consistent inability to experience positive emotions.</li>
+                <li><BsCheck className='star'/> Trouble concentrating.</li>
+                <li><BsCheck className='star'/> Avoiding distressing memories.</li>
+                <li><BsCheck className='star'/> Memory loss of the traumatic event.</li>
+                <li><BsCheck className='star'/> Avoiding external reminders of the traumatic event.</li>
+                <li><BsCheck className='star'/> Recurring, involuntary memories of the traumatic event.</li>
+                <li><BsCheck className='star'/> Consistent inability to experience positive emotions.</li>
                 </ul><br/>
 
                 <h5>RELATIONSHIP TO OTHERS</h5>
                 <ul><br/>
-                <li><FaRegStar className='star'/> Hypervigilance.</li>
-                <li><FaRegStar className='star'/> Startled responses.</li>
-                <li><FaRegStar className='star'/> Angry outbursts/Lashing out.</li>
+                <li><BsCheck className='star'/> Hypervigilance.</li>
+                <li><BsCheck className='star'/> Startled responses.</li>
+                <li><BsCheck className='star'/> Angry outbursts/Lashing out.</li>
                 </ul><br/>
 
                 <h5>RELATIONSHIP TO YOUR SORROUNDINGS</h5>
                 <ul><br/>
-                <li><FaRegStar className='star'/> Altered perception of reality.</li>
-                <li><FaRegStar className='star'/> Recurring dreams of the event.</li>
-                <li><FaRegStar className='star'/> Exaggerated responses to loud stimuli.</li>
-                <li><FaRegStar className='star'/> Attempting to avoid any reminders of the event.</li>
-                <li><FaRegStar className='star'/> Psychological or physical stress when reminded of the event.</li>
+                <li><BsCheck className='star'/> Altered perception of reality.</li>
+                <li><BsCheck className='star'/> Recurring dreams of the event.</li>
+                <li><BsCheck className='star'/> Exaggerated responses to loud stimuli.</li>
+                <li><BsCheck className='star'/> Attempting to avoid any reminders of the event.</li>
+                <li><BsCheck className='star'/> Psychological or physical stress when reminded of the event.</li>
 
                 </ul><br/>
 

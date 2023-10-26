@@ -18,3 +18,13 @@
 }
 
 
+/* MEDIA QUERIES */
+
+@media screen and (max-width:700px) {
+
+  .ptsd-section-header h1 {
+      font-size: 1.5rem;
+      text-align: center;
+  }
+  
+  }

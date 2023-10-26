@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Slab&family=Roboto:wght@300&display=swap');
 
+.hero-bg {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.hero-bg:before {
+  content: '';
+  position: absolute;
+  background: url('../../assets/hero-bg-wave.png') no-repeat center bottom/cover;
+  height: 100%;
+  width: 100%;
+  opacity: 0.3;
+}
+
+
+.hero {
+  display: flex;
+  justify-content: center;
+}
+
 .slider {
   position: relative;
   top: 0;
@@ -8,54 +29,70 @@
 }
 
 .hero-caption {
-  position: absolute;
-  top: 30%;
-  left: 5%;
+  margin: auto;
+  text-align: center;
+  /* position: absolute; */
+  bottom: 20%;
   z-index: 2;
-  width: 60%;
-  text-align: left;
+}
+
+.hero-right {
+  /* position: relative; */
+  width: 100%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.13);
+}
+
+.hero-logo {
+  width: 80%;
+  margin: auto;
+}
+
+.hero-logo img {
+  width: 90%;
 }
 
 .hero-caption h1 {
-  color: rgb(225, 118, 18);
-  letter-spacing: 3px;
-  font-size: 1.2rem;
+  color: #181616c7;
   font-weight: bolder;
+  letter-spacing: 1px;
+  font-size: 2rem;
+  font-family: 'Cabin', sans-serif;
+  padding: 1rem 0 0 0;
 }
+
+.hero-caption p {
+  font-size: 1.5rem;
+  color: #000000;
+  font-family: 'El Messiri', sans-serif;
+}
+
 .hero-caption h2 {
-  font-size: 5rem;
-  color: white;
-  text-align: left;
-  font-family: 'Roboto Slab', serif;
+  color: #494945;
 }
 
-
-.slider img {
-	width:100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.5;
-
-}
 
 .slider ul{
 	margin:0;
 	padding:0;
 	list-style:none;
   position: relative;
-  width:100vw;
-  
-
 }
+
 .slider ul li {
   position: absolute;
 	width:100%;
-	height:100vh;
+	height:80vh;
 	top:0;
 	left:0;
 	animation-iteration-count:infinite;
 	animation-duration:24s;
-  background-color: rgb(36, 35, 35);
+}
+
+.slider img {
+	width:100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .slide1 {
@@ -105,17 +142,17 @@
 button {
   padding: 12.5px 30px;
   border: 0;
-  border-radius: 100px;
-  background-color: rgb(225, 118, 18);
+  border-radius: 5px;
   color: #ffffff;
+  background-color: #c2c5a3;
+  letter-spacing: 2px;
   font-weight: Bold;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
 }
 
 button:hover {
-  background-color: #6fc5ff;
-  box-shadow: 0 0 20px #6fc5ff50;
+  background-color: #92b1d3;
   border: none;
 }
 
@@ -126,32 +163,76 @@ button:active {
   box-shadow: none;
 }
 
+.hero-headline-hide {
+  display: none;
+}
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 750px) {
+  .hero {
+    flex-wrap: wrap;
+  }
 
-  .hero-caption {
+  /* .hero-logo {
+    display: none;
+  } */
+
+  .hero-btn {
+    display: none;
+  }
+
+  .hero-headline {
+    display: none;
+  }
+
+  .hero-headline-hide {
+    display: block;
+  }
+
+  .hero-right .hero-headline-hide h1 {
+    font-size: 1rem;
+    color: #92b1d3;
+  }
+
+  .slider ul li {
     position: absolute;
-    top: 30%;
-    left: 0;
-    z-index: 2;
-    width: 100%;
-    text-align: center;
+    width:100%;
+    height:60vh;
+    top:0;
+    left:0;
+    animation-iteration-count:infinite;
+    animation-duration:24s;
   }
   
+
+  .hero-logo img {
+    width: 50%;
+    padding-bottom: 1rem;
+  }
+
+  /* .hero-caption {
+    bottom: 5%;
+
+  } */
   
   .hero-caption h1 {
+    font-size: 1.5rem;
+    /* color: #ffffff; */
+  }
+
+  .hero-caption p {
     font-size: 1.2rem;
+    /* color: #ffffff; */
+    font-family: 'El Messiri', sans-serif;
   }
-  
-  .hero-caption h2 {
-    font-size: 3rem;
-    text-align: center;
+
+
+  .hero-right {
+    /* position: absolute; */
+    height: 100%;
+    /* background-color: #1a0e015d; */
   }
-  
+
+
 }
 
-@media screen and (max-width: 700px) {
-  .hero-caption {
-    width: 100%;
-  }
-}
+

@@ -5,7 +5,7 @@ import { Link as LinkRoll } from 'react-scroll'
 
 import './HomeSection5.css'
 import { BiBrain } from 'react-icons/bi';
-import { FaBeer } from 'react-icons/fa';
+import { FaBeer } from 'react-icons/bs';
 import { GiPowder } from 'react-icons/gi';
 import { RiSyringeLine } from 'react-icons/ri';
 
@@ -80,6 +80,7 @@ const HomeSection5 = () => {
                             </button>
                         </Link>
                     </LinkRoll>                
+
                 </div>
 
                 <div className='homeSection5-item'>

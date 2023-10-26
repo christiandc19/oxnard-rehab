@@ -17,7 +17,7 @@ const Menus = () => {
     <>
 
 <div className="mh-cards-header container">
-                <h1>Oxnard Rehab TREATMENT CENTER OFFERS VARIOUS MENTAL HEALTH PROGRAMS </h1>
+                <h1>Oxnard REHAB TREATMENT CENTER OFFERS VARIOUS MENTAL HEALTH PROGRAMS </h1>
                 <p>At Oxnard Rehab Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
             </div>
 

@@ -1,9 +1,6 @@
 
 .homeSection1 {
-    margin: -10rem 0 0 0;
-    position: relative;
-    z-index: 4;
-
+    padding: 12rem 0 3rem 0;
 }
 
 .homeSection1 .homeSection1-header h1{
@@ -33,11 +30,10 @@
 .homeSection1-flexItem {
     display: flex;
     justify-content: center;
+    gap: 1rem;
     height: 210px;
-    width: 350px;
+    width: 400px;
     padding: 0 1rem;
-    gap: .5rem;
-
 
     -webkit-box-shadow: 0px 0px 47px -15px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 47px -15px rgba(0,0,0,0.75);
@@ -49,7 +45,7 @@
     background-color: var(--primary-color);
     border-radius: 5rem;
     margin: auto;
-    padding: .1rem .8rem .5rem .9rem;
+    padding: .8rem .9rem .4rem .9rem;
     color: white;
 }
 
@@ -60,30 +56,26 @@
 
 .homeSection1-icon-caption h1{
     padding: .5rem 0;
-    
 }
 
-.homeSection1-flexItem {
-    background-color: #005f59;
-    border-radius: 1rem;
+.homeSection1-flexItem2 {
+    background-color: var(--primary-color);
 }
 
-.homeSection1-flexItem h1{
+.homeSection1-flexItem2 h1{
     color: white;
-    font-size: 1rem;
 }
 
-.homeSection1-flexItem p{
+.homeSection1-flexItem2 p{
     color: white;
-    text-align: left;
 }
 
-.homeSection1-icon {
+.homeSection1-icon2 {
     font-size: 2rem;
     background-color: #E17141;
     border-radius: 5rem;
     margin: auto;
-    padding: .1rem .8rem .5rem .9rem;
+    padding: .8rem .9rem .4rem .9rem;
     color: white;
 }
 
@@ -95,15 +87,8 @@
         font-size: 2rem;
      }
 
-     .homeSection1-flexItem {
-        width: 100%;
-        margin: 0 1rem;
-        border-radius: 0;
-    }
-
-    .homeSection1-flexItem {
-        background-color: #005f59;
-        border-radius: 1rem;
+     .homeSection1 {
+        padding: 5rem 0 3rem 0;
     }
 
     }

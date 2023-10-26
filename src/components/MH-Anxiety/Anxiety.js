@@ -8,9 +8,11 @@ import './Anxiety.css'
 const Anxiety = () => {
     return (
         <div className='anxiety submenu'>
+
                 <div className="anxiety-content">
                     <Fade top>
                     <h1>ANXIETY DISORDER</h1>
+                    <p> Transforming Anxiety into Empowerment with Our Specialized Program</p>
                     </Fade>
             </div>
         </div>

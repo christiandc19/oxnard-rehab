@@ -1,6 +1,6 @@
 import React from 'react'
 import ContactForm from '../contact/ContactForm'
-import { FaRegStar } from 'react-icons/fa';
+import { BsCheck } from 'react-icons/bs';
 
 import './BipolarDisorderSection.css'
 
@@ -12,17 +12,18 @@ const BipolarDisorder = () => {
                 <p>Also known as manic depression, bipolar disorder is a mental health condition in which one suffers extreme mood swings (mania/hypomania to lows/depression). Episodes of mania may create feelings of euphoria, energy, or irritability.<br/> <br/>
                 Episodes of bipolar depression can include symptoms of:<br/><br/>
                 <ul>
-                <li><FaRegStar className='star'/> Sadness</li><br/>
-                <li><FaRegStar className='star'/> Hopelessness</li><br/>
-                <li><FaRegStar className='star'/> Loss of pleasure/interest in activities</li><br/>
-                <li><FaRegStar className='star'/> Mood swings</li><br/>
-                </ul>
-                Although these mood swings aren’t frequent, they can cause changes to energy levels, sleep, judgment, decision-making, and overall behavior.<br/><br/>
+                <li><BsCheck className='star'/> Sadness</li>
+                <li><BsCheck className='star'/> Hopelessness</li>
+                <li><BsCheck className='star'/> Loss of pleasure/interest in activities</li>
+                <li><BsCheck className='star'/> Mood swings</li>
+                </ul><br/>
+                <p>                Although these mood swings aren’t frequent, they can cause changes to energy levels, sleep, judgment, decision-making, and overall behavior.<br/><br/>
+</p>
                 <ul>
-                <li><FaRegStar className='star'/> Stress</li><br/>
-                <li><FaRegStar className='star'/> Drug use</li><br/>
-                <li><FaRegStar className='star'/> Alcohol abuse</li><br/>
-                <li><FaRegStar className='star'/> Irregular sleep patterns</li><br/>
+                <li><BsCheck className='star'/> Stress</li>
+                <li><BsCheck className='star'/> Drug use</li>
+                <li><BsCheck className='star'/> Alcohol abuse</li>
+                <li><BsCheck className='star'/> Irregular sleep patterns</li>
                 </ul>
                 </p>
 </div>

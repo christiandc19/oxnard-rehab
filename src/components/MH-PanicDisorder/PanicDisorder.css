@@ -3,16 +3,16 @@
 
 .PanicDisorder {
     width: 100%;
-    height: 80vh;
-    background: rgba(42, 14, 73, 0.486);
+    height: 50vh;
+    background: rgba(0, 0, 0, 0.486);
     position: relative;
   }
   
   .PanicDisorder:before {
     content: '';
     position: absolute;
-    background: url('../../assets/addiction-submenu-bg-min.jpg') no-repeat center center/cover;
-    height: 80vh;
+    background: url('../../assets/mental-health-submenu-bg-min.webp') no-repeat center center/cover;
+    height: 100%;
     width: 100%;
     z-index: -1;
   }
@@ -27,19 +27,26 @@
 .PanicDisorder .PanicDisorder-content {
     display: block;
     position: absolute;
-    top: 30%;
+    bottom: 20%;
     padding: 1rem;
 }
 
 .PanicDisorder h1 {
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+}
+
+.PanicDisorder p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+
 }
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:940px) {
+@media screen and (max-width:700px) {
 
 .PanicDisorder h1 {
     font-size: 2rem;

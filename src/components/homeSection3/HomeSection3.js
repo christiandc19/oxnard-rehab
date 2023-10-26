@@ -4,7 +4,7 @@ import { Link as LinkRoll } from 'react-scroll'
 
 import './HomeSection3.css'
 import { BiBrain } from 'react-icons/bi';
-import { FaTheaterMasks } from 'react-icons/fa';
+import { FaTheaterMasks } from 'react-icons/bs';
 import { GiBrain } from 'react-icons/gi';
 import { ImSad } from 'react-icons/im';
 

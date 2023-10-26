@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
 
 :root {
-  --primary-color: rgb(36, 128, 128);
-  --primary-dark: #022204;
-  --secondary-color: #0f746b;
+  --primary-color: #80854e;
+  --primary-dark: #1B262C;
+  --secondary-color: #b1742f;
+  --primary-text:  rgb(26, 24, 41);
+
 
 }
 
@@ -21,11 +27,11 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 code {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -34,11 +40,11 @@ ul {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #067dec;
 }
 
 a:hover {
-  color: var(--secondary-color);
+  color: #e49e06;
 }
 
 p {
@@ -56,7 +62,7 @@ h1 {
 
 h2 {
   font-size: 25px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--primary-color);
 }
 
@@ -64,31 +70,39 @@ h2 {
   max-width: 1240px;
   margin: auto;
   height: 100%;
-  /* position: relative; */
+  position: relative;
 }
 
 button {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding: .7rem 3rem;
   margin: 1rem 0;
   background-color: var(--primary-color);
   border: 1px solid var(--primary-color);
   color: #f8f8f8;
-  text-transform: uppercase;
   font-size: 1rem;
   font-weight: 500;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor:pointer;
-
 }
 
-button:hover {
-  background-color: #0c4b14;
-  border: 1px solid #0c4b14;
+
+.show {
+  display: none;
 }
 
-span {
-  color: var(--primary-color);
+.show button {
+  padding: .5rem 1.5rem;
+  border-radius: 5px;
+}
+
+.hide {
+  display: block;
+}
+
+.hide button {
+  padding: .5rem 1.5rem;
+  border-radius: 5px;
 }
 
 
@@ -108,95 +122,6 @@ padding: 7px 0 0px 0;
 margin: 0px 5px;
 }
 
-
-/* SUBMENUS */
-
-.mh {
-  width: 100%;
-  height: 80vh;
-  background: rgba(21, 3, 27, 0.521);
-  position: relative;
-}
-
-.mh:before {
-  content: '';
-  position: absolute;
-  background: url('../src/assets/mh-submenu-bg.jpg') no-repeat center top/cover;
-  height: 80vh;
-  width: 100%;
-  z-index: -1;
-}
-
-
-.iop {
-  width: 100%;
-  height: 80vh;
-  background: rgba(21, 3, 27, 0.521);
-  position: relative;
-}
-
-.iop:before {
-  content: '';
-  position: absolute;
-  background: url('../src/assets/submenu-bg.jpg') no-repeat center center/cover;
-  height: 80vh;
-  width: 100%;
-  z-index: -1;
-}
-
-.php {
-  width: 100%;
-  height: 80vh;
-  background: rgba(21, 3, 27, 0.521);
-  position: relative;
-}
-
-.php:before {
-  content: '';
-  position: absolute;
-  background: url('../src/assets/submenu-bg.jpg') no-repeat center center/cover;
-  height: 80vh;
-  width: 100%;
-  z-index: -1;
-}
-
-.op {
-  width: 100%;
-  height: 80vh;
-  background: rgba(21, 3, 27, 0.521);
-  position: relative;
-}
-
-.op:before {
-  content: '';
-  position: absolute;
-  background: url('../src/assets/submenu-bg.jpg') no-repeat center center/cover;
-  height: 80vh;
-  width: 100%;
-  z-index: -1;
-}
-
-
-/* SUBMENU SECTION */
-
-.wrap {
-    display: flex;
-    flex-wrap: wrap ;
-    justify-content: center;
-  }
-  
-  .box {
-      height: auto;
-      margin: 1rem;
-  }
-  
-  .wrap .header {
-      text-align: left;
-  }
-  
-  .box img {
-      border-radius: 10px;
-  }
   
   p {
       font-size: 15px;
@@ -216,6 +141,27 @@ margin: 0px 5px;
   .star {
     color: goldenrod;
 }
+
+
+/* Wave Divider - SA and MH Hero Image */
+
+.hero-divider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: 5;
+}
+
+.hero-divider img {
+  width: 100%;
+}
+
+
+
   /* MEDIA QUERIES */
   
   @media screen and (max-width:940px) {
@@ -239,88 +185,25 @@ margin: 0px 5px;
     color: rgb(72, 214, 103);
   }
 
-@media screen and (max-width:375px) {
-  .box img {
-      width: 100%;
-      height: 300px;
-  }
-}
 
-/* MAIN MENUS CONTENTS */
-
-.main-menu .content {
-  position: absolute;
-  top: 30%;
-  /* padding: 0 10rem; */
-  width: 100%;
-}
-
-.main-menu h1 {
-  text-align: left;
-  font-size: 4rem;
-  padding: 10px 0;
-  color: white;
-}
-
-
-.main-menu p {
-  margin: auto;
-  text-align: justify;
-  font-size: 16px;
-}
-
-.job-link a {
-  color:var(--primary-color);
-  font-weight: bold;
-}
-
-.job-link a:hover {
-  color: #46a828;
-}
-
-@media screen and (max-width:940px) {
-
-  .main-menu h1 {
-      font-size: 2rem;
-  }
-
-  .main-menu-header h1{
-      font-size: 1.5rem;
-  }
-  
-  .main-menu-content p{
-      font-size: 14px;
-  }
-
-  .main-menu .content {
-    font-size: 14px;
-    padding: 0 2rem;
-}
-}
-
-
-/* Wave Divider - SA and MH Hero Image */
-
-.hero-divider {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.hero-divider img {
-  width: 100%;
-
-
-}
 
 @media screen and (max-width: 940px) {
 
   .hero-divider img {
     display: none;
   }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  .hide {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
 
 }
+

@@ -1,7 +1,7 @@
 import React from 'react'
 import ContactForm from '../contact/ContactForm'
 
-import { FaRegStar } from 'react-icons/fa';
+import { BsCheck } from 'react-icons/bs';
 
 
 import './AdhdSection.css'
@@ -15,10 +15,10 @@ const AdhdSection = () => {
                 <br/> Although the behaviors of one with ADHD may not seem dangerous, there can be very real consequences to a state of mind like this, and ADHD can lead to problems with relationships with friends and family or performance at work or school. <br/> <br/>
                 People with ADHD display a persistent pattern of impulsive hyperactivity and/or an inability to focus on any one thing for too long. <br/><br/>The causes of ADHD still aren’t clear, but current research suggests that genetics play a significant role in ADHD cases. There are other possible causes for hyperactivity and inattention wholly unrelated to ADHD:<br/><br/>
                 <ul>
-                <li><FaRegStar className='star'/> Brain injuries </li><br/>
-                <li><FaRegStar className='star'/> Premature birth</li><br/>
-                <li><FaRegStar className='star'/> Fatigue</li><br/>
-                <li><FaRegStar className='star'/> Exposure to harsh chemicals during pregnancy.</li>
+                <li><BsCheck className='star'/> Brain injuries </li><br/>
+                <li><BsCheck className='star'/> Premature birth</li><br/>
+                <li><BsCheck className='star'/> Fatigue</li><br/>
+                <li><BsCheck className='star'/> Exposure to harsh chemicals during pregnancy.</li>
                 </ul>
 
                 <div className="adhd-section-header container">
@@ -56,30 +56,30 @@ const AdhdSection = () => {
                 <h5>MENTAL</h5>
                 <p>
                 <ul><br/>
-                <li><FaRegStar className='star'/> Forgetfulness.</li>
-                <li><FaRegStar className='star'/> Inability to focus.</li>
-                <li><FaRegStar className='star'/> Distortion of reality.</li>
-                <li><FaRegStar className='star'/> Psychologic distress.</li>
-                <li><FaRegStar className='star'/> Flashbacks of the traumatic event.</li>
-                <li><FaRegStar className='star'/> Avoiding certain related places, people, or memories.</li>
+                <li><BsCheck className='star'/> Forgetfulness.</li>
+                <li><BsCheck className='star'/> Inability to focus.</li>
+                <li><BsCheck className='star'/> Distortion of reality.</li>
+                <li><BsCheck className='star'/> Psychologic distress.</li>
+                <li><BsCheck className='star'/> Flashbacks of the traumatic event.</li>
+                <li><BsCheck className='star'/> Avoiding certain related places, people, or memories.</li>
                 </ul><br/>
                 
                 <h5>PHYSICAL</h5>
               
                 <ul><br/>
-                <li><FaRegStar className='star'/> Chest pain.</li>
-                <li><FaRegStar className='star'/> Constant daydreaming.</li>
-                <li><FaRegStar className='star'/> Poor decision-making.</li>
-                <li><FaRegStar className='star'/> Inability to focus on/complete tasks.</li>
+                <li><BsCheck className='star'/> Chest pain.</li>
+                <li><BsCheck className='star'/> Constant daydreaming.</li>
+                <li><BsCheck className='star'/> Poor decision-making.</li>
+                <li><BsCheck className='star'/> Inability to focus on/complete tasks.</li>
                 </ul><br/>
 
                 <h5>PERSONAL</h5>
               
                 <ul><br/>
-                <li><FaRegStar className='star'/> Impatience</li>
-                <li><FaRegStar className='star'/> Disagreeable towards others</li>
-                <li><FaRegStar className='star'/> Unable to resist temptation</li>
-                <li><FaRegStar className='star'/> Losing & misplacing things</li>
+                <li><BsCheck className='star'/> Impatience</li>
+                <li><BsCheck className='star'/> Disagreeable towards others</li>
+                <li><BsCheck className='star'/> Unable to resist temptation</li>
+                <li><BsCheck className='star'/> Losing & misplacing things</li>
                 </ul>
                 </p>
 

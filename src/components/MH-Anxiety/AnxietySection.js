@@ -1,6 +1,6 @@
 import React from 'react'
 import ContactForm from '../contact/ContactForm'
-import { FaRegStar } from 'react-icons/fa';
+import { BsCheck } from 'react-icons/bs';
 
 import './AnxietySection.css'
 
@@ -9,9 +9,9 @@ const AnxietySection = () => {
 <>
 <div className="anxiety-section-header container">
                 <h1>ANXIETY DISORDER</h1><br/>
-                <p>As a normal reaction to stress, anxiety generally refers to the worry or fear related to the unknown, the future, or uncertain outcomes of situations<br/> <br/>
-                An anxiety disorder is more than just the everyday stress that the average person experiences. Anxiety disorders indicate deeper problems, and <br/><br/>
-                When the symptoms of anxiety begin to affect your ability to function and cope with day-to-day life.<br/><br/>
+                <p>As a normal reaction to stress, anxiety generally refers to the worry or fear related to the unknown, the future, or uncertain outcomes of situations.
+                An anxiety disorder is more than just the everyday stress that the average person experiences. Anxiety disorders indicate deeper problems, and
+                When the symptoms of anxiety begin to affect your ability to function and cope with day-to-day life.
                 Those with anxiety disorders look for drugs or alcohol to cope with day-to-day life. This can result in the worsening of symptoms, straining of relationships with others, and the obstruction of performing well at work or school.
                 </p>   
 </div>
@@ -22,13 +22,13 @@ const AnxietySection = () => {
 
                 <br/> <br />
                 <ul>
-                <li><FaRegStar className='star'/> Panic attacks</li><br/>
-                <li><FaRegStar className='star'/> Restlessness</li><br/>
-                <li><FaRegStar className='star'/> Trouble sleeping</li><br/>
-                <li><FaRegStar className='star'/> Hyperventilation</li>
-                <li><FaRegStar className='star'/> Constant worry or fear</li>
-                <li><FaRegStar className='star'/> Interference in work, school, or personal relationships</li>
-                <li><FaRegStar className='star'/> Avoiding things that trigger anxiety (certain places, things, people, etc.)</li>
+                <li><BsCheck className='star'/> Panic attacks</li>
+                <li><BsCheck className='star'/> Restlessness</li>
+                <li><BsCheck className='star'/> Trouble sleeping</li>
+                <li><BsCheck className='star'/> Hyperventilation</li>
+                <li><BsCheck className='star'/> Constant worry or fear</li>
+                <li><BsCheck className='star'/> Interference in work, school, or personal relationships</li>
+                <li><BsCheck className='star'/> Avoiding things that trigger anxiety (certain places, things, people, etc.)</li>
                 </ul>
                 </p>
 </div>
@@ -44,11 +44,11 @@ const AnxietySection = () => {
                 <p>With a solid plan and medical counseling, anxiety disorders don't have to dictate your quality of life. The right combination of treatment centers can be a great place to start. Common anxiety disorder treatments include:
                 <br/> <br />
                 <ul>
-                <li><FaRegStar className='star'/> Psychotherapy</li><br/>
-                <li><FaRegStar className='star'/> Cognitive treatment</li><br/>
-                <li><FaRegStar className='star'/> Behavioral therapy</li><br/>
-                <li><FaRegStar className='star'/> Lifestyle changes</li><br/>
-                <li><FaRegStar className='star'/> Anti-anxiety medication</li>
+                <li><BsCheck className='star'/> Psychotherapy</li>
+                <li><BsCheck className='star'/> Cognitive treatment</li>
+                <li><BsCheck className='star'/> Behavioral therapy</li>
+                <li><BsCheck className='star'/> Lifestyle changes</li>
+                <li><BsCheck className='star'/> Anti-anxiety medication</li>
                 </ul>
                 </p>
 </div>

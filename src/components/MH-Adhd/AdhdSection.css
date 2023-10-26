@@ -24,8 +24,23 @@ font-family: 'Montserrat', sans-serif;
 text-align: justify;
 }
 
+.adhd-section-header h1 {
+  text-align: left;
+}
+
 .adhd-section-header h5 {
   font-family: 'Montserrat', sans-serif;
   text-align: left;
   color: rgb(68, 67, 67);
 }
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+  .adhd-section-header h1 {
+    text-align: center;
+  }
+  
+  }
