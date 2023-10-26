@@ -21,15 +21,15 @@ const MenusSA = () => {
                 <p>At a Oxnard Rehab Treatment Center, clients receive individual therapy alongside a range of additional treatments, including relapse prevention, trauma therapy, mindfulness meditation, transportation, yoga, and more. We offer support that clients need to allow them to gradually go back to treatment. </p>
             </div>
 
-<div class="mh-card-wrap">
-<div class="mh-tile"> 
+<div className="mh-card-wrap">
+<div className="mh-tile"> 
   <Fade left>
   <img src={Card1} alt="Mental Health" loading="lazy"/>
   </Fade>
-  <div class="mh-text">
+  <div className="mh-text">
   <h1>Partial Hospitalizaion Program​</h1>
-  <p class="mh-animate-text">Some of our clients are here to attend to their mental health, and some come to us for help with addiction and sobriety.</p>
-    <div class="mh-animate-text">
+  <p className="mh-animate-text">Some of our clients are here to attend to their mental health, and some come to us for help with addiction and sobriety.</p>
+    <div className="mh-animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/substance-abuse-php">
             <button>Learn More</button>
@@ -39,14 +39,14 @@ const MenusSA = () => {
   </div>
  </div>
 
-<div class="mh-tile"> 
+<div className="mh-tile"> 
 <Fade top>
 <img src={Card2} alt="Substance Use" loading="lazy"/>
 </Fade>
-  <div class="mh-text">
+  <div className="mh-text">
   <h1>Intensive Outpatient Program</h1>
-  <p class="mh-animate-text">No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Oxnard Rehab.</p>
-  <div class="mh-animate-text">
+  <p className="mh-animate-text">No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Oxnard Rehab.</p>
+  <div className="mh-animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/substance-abuse-iop">
             <button>Learn More</button>
@@ -57,15 +57,15 @@ const MenusSA = () => {
   </div>
  </div>
   
-  <div class="mh-tile"> 
+  <div className="mh-tile"> 
 
   <Fade right>
   <img src={Card3} alt="Warehouse Employees" loading="lazy"/>
   </Fade>
-  <div class="mh-text">
+  <div className="mh-text">
   <h1>Outpatient Program</h1>
-  <p class="mh-animate-text">We offer a variety of employment tools and resources to help you land on your feet and get hired at a great company in recovery.</p>
-  <div class="mh-animate-text">
+  <p className="mh-animate-text">We offer a variety of employment tools and resources to help you land on your feet and get hired at a great company in recovery.</p>
+  <div className="mh-animate-text">
     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
         <Link to="/substance-abuse-op">
             <button>Learn More</button>
@@ -85,11 +85,11 @@ const MenusSA = () => {
 
 
           
-<div class="sa-thumbnail-wrap container">
+<div className="sa-thumbnail-wrap container">
 
- <div class="sa-thumbnails"> 
+ <div className="sa-thumbnails"> 
   <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
+    <div className="centered">
       <Fade left>
       <h5>SUBSTANCE ABUSE TREATMENT​</h5>
       </Fade>
@@ -104,9 +104,9 @@ const MenusSA = () => {
     </div>
   </div>
 
-  <div class="sa-thumbnails"> 
+  <div className="sa-thumbnails"> 
   <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
+    <div className="centered">
       <Fade left>
       <h5>SUBSTANCE ABUSE TREATMENT​</h5>
       </Fade>
@@ -121,9 +121,9 @@ const MenusSA = () => {
     </div>
   </div>
 
-  <div class="sa-thumbnails"> 
+  <div className="sa-thumbnails"> 
   <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
+    <div className="centered">
       <Fade left>
       <h5>SUBSTANCE ABUSE TREATMENT​</h5>
       </Fade>
@@ -138,9 +138,9 @@ const MenusSA = () => {
     </div>
   </div>
 
-  <div class="sa-thumbnails"> 
+  <div className="sa-thumbnails"> 
   <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
+    <div className="centered">
       <Fade left>
       <h5>SUBSTANCE ABUSE TREATMENT​</h5>
       </Fade>
@@ -155,9 +155,9 @@ const MenusSA = () => {
     </div>
   </div>
 
-  <div class="sa-thumbnails"> 
+  <div className="sa-thumbnails"> 
   <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
+    <div className="centered">
       <Fade left>
       <h5>SUBSTANCE ABUSE TREATMENT​</h5>
       </Fade>
@@ -172,9 +172,9 @@ const MenusSA = () => {
     </div>
   </div>
 
-  <div class="sa-thumbnails"> 
+  <div className="sa-thumbnails"> 
   <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
+    <div className="centered">
       <Fade left>
       <h5>SUBSTANCE ABUSE TREATMENT​</h5>
       </Fade>
@@ -189,9 +189,9 @@ const MenusSA = () => {
     </div>
   </div>
 
-  <div class="sa-thumbnails"> 
+  <div className="sa-thumbnails"> 
   <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
+    <div className="centered">
       <Fade left>
       <h5>SUBSTANCE ABUSE TREATMENT​</h5>
       </Fade>
@@ -206,9 +206,9 @@ const MenusSA = () => {
     </div>
   </div>
 
-  <div class="sa-thumbnails"> 
+  <div className="sa-thumbnails"> 
   <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
+    <div className="centered">
       <Fade left>
       <h5>SUBSTANCE ABUSE TREATMENT​</h5>
       </Fade>
@@ -223,9 +223,9 @@ const MenusSA = () => {
     </div>
   </div>
 
-  <div class="sa-thumbnails"> 
+  <div className="sa-thumbnails"> 
   <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
+    <div className="centered">
       <Fade left>
       <h5>SUBSTANCE ABUSE TREATMENT​</h5>
       </Fade>
@@ -240,9 +240,9 @@ const MenusSA = () => {
     </div>
   </div>
 
-  <div class="sa-thumbnails"> 
+  <div className="sa-thumbnails"> 
   <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
+    <div className="centered">
       <Fade left>
       <h5>SUBSTANCE ABUSE TREATMENT​</h5>
       </Fade>
@@ -257,9 +257,9 @@ const MenusSA = () => {
     </div>
   </div>
 
-  <div class="sa-thumbnails"> 
+  <div className="sa-thumbnails"> 
   <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
+    <div className="centered">
       <Fade left>
       <h5>SUBSTANCE ABUSE TREATMENT​</h5>
       </Fade>
@@ -274,9 +274,9 @@ const MenusSA = () => {
     </div>
   </div>
 
-  <div class="sa-thumbnails"> 
+  <div className="sa-thumbnails"> 
   <img src={SubCardBg} alt="Mental Health" loading="lazy"/>
-    <div class="centered">
+    <div className="centered">
       <Fade left>
       <h5>SUBSTANCE ABUSE TREATMENT​</h5>
       </Fade>

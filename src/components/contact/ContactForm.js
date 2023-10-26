@@ -42,14 +42,14 @@ feedbackEl.setAttribute("class", "feedback hidden");
 
 <section className="container">
 <div>
-      <div class="footer_get_touch_inner">
-          <div class="get_form_inner">
-            <div class="get_form_inner_text">
+      <div className="footer_get_touch_inner">
+          <div className="get_form_inner">
+            <div className="get_form_inner_text">
               <h3>Get In Touch</h3>
               <p><i>We'll keep your contact information strictly confidential.</i></p><br/>
             </div>
             <form ref={form} onSubmit={sendEmail}>
-              <div class="inputs">
+              <div className="inputs">
                 <input type="text" name='name' placeholder='Your Name' required /> <br/>
                 <input type="text" name='email' placeholder='Your Email' required /> <br/>
                 <input type="tel" name='phone' placeholder='Your Phone' required /> <br/>
@@ -75,17 +75,17 @@ feedbackEl.setAttribute("class", "feedback hidden");
 
 <div className="contact-cards-container">
     
-    <div class="get_form_inner2 card1">
+    <div className="get_form_inner2 card1">
             <h2>CALL US</h2>
             <p><AiOutlinePhone /><a href="tel:3237920535"> +1 (323) 792-0535</a></p>
     </div>
 
-    <div class="get_form_inner2 card2">
+    <div className="get_form_inner2 card2">
             <h2>EMAIL</h2>
             <p><AiOutlineMail /> Info@OxnardRehab.biz  </p><br />
     </div>
 
-    <div class="get_form_inner2 card3">
+    <div className="get_form_inner2 card3">
             <h2>LOCATION</h2>
             <p><BsFillPinMapFill /> 721 S. A Street, 1st Floor, Oxnard CA 93030 </p>
     </div>

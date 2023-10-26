@@ -35,11 +35,11 @@ const MenusPrograms = () => {
 
 
 
-    <div class="menu-programs-flex">
+    <div className="menu-programs-flex">
 
 {/* PHP */}
 
-        <div class="menu-programs-flexItem">
+        <div className="menu-programs-flexItem">
             <img src={Card1} alt="Mental Health" loading="lazy" />
           <div>
             <h1>PARTIAL HOSPITALIZATION</h1>
@@ -64,7 +64,7 @@ const MenusPrograms = () => {
 
 
 {/* IOP */}
-<div class="menu-programs-flexItem">
+<div className="menu-programs-flexItem">
             <img src={Card2} alt="Mental Health" loading="lazy" />
           <div>
             <h1>INTENSIVE OUTPATIENT</h1>
@@ -89,7 +89,7 @@ const MenusPrograms = () => {
 
 
 {/* OP */}
-<div class="menu-programs-flexItem">
+<div className="menu-programs-flexItem">
             <img src={Card3} alt="Mental Health" loading="lazy" />
           <div>
             <h1>OUTPATIENT </h1>
@@ -114,7 +114,7 @@ const MenusPrograms = () => {
 
 
 {/* CASE MANGEMENT */}
-<div class="menu-programs-flexItem">
+<div className="menu-programs-flexItem">
             <img src={Card4} alt="Mental Health" loading="lazy" />
           <div>
             <h1>CASE MANGEMENT</h1>
@@ -139,7 +139,7 @@ const MenusPrograms = () => {
 
 
 {/* CRISIS INTERVENTION */}
-<div class="menu-programs-flexItem">
+<div className="menu-programs-flexItem">
             <img src={Card5} alt="Mental Health" loading="lazy" />
           <div>
             <h1>CRISIS INTERVENTION</h1>
@@ -163,7 +163,7 @@ const MenusPrograms = () => {
 
 
 {/* FAMILY THERAPY */}
-<div class="menu-programs-flexItem">
+<div className="menu-programs-flexItem">
             <img src={Card6} alt="Mental Health" loading="lazy" />
           <div>
             <h1>FAMILY THERAPY</h1>

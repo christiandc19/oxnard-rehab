@@ -26,7 +26,7 @@ const MenuMentalHealth = () => {
 
 {/* THUMBNAILS */}
 
-      <div class="menu-mental-health-flex container">
+      <div className="menu-mental-health-flex container">
 
       
 {/* ANXIETY */}

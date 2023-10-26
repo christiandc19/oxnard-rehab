@@ -31,7 +31,7 @@ const MenuAddiction = () => {
 
       {/* Mental Health Thumbnails */}
 
-      <div class="menu-addiction-flex">
+      <div className="menu-addiction-flex">
 
       
 {/* ALCOHOL */}

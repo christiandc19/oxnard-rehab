@@ -35,7 +35,7 @@ const Hero = () => {
 
 <div className='hero-right'>
     <div className='hero-caption'> 
-        <Fade left>
+        <Fade bottom>
 
             <div className='hero-headline-hide'>
                 <h1>WELCOME TO</h1>
@@ -47,8 +47,6 @@ const Hero = () => {
             <div className='hero-headline'>
                 <h1>"You're Stronger Than You Think"</h1>
             </div>
-
-
 
             <p>Substance Abuse and Mental Health Treatment Facility</p>
         </Fade>

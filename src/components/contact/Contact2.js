@@ -43,48 +43,48 @@ const ContactForm = () => {
         <p>Our Addiction and Recovery Support team is available to assist you.</p>
     </div>
 
-<div class="contact2-container">
-    <div class="contact-form-content">
+<div className="contact2-container">
+    <div className="contact-form-content">
 
-      <div class="left-side">
+      <div className="left-side">
 
-        <div class="address details">
-          <i class="fas fa-map-marker-alt"></i>
-          <div class="topic">Address</div><br/>
-          <div class="text-one"> 68487 E Palm Canyon Dr, STE 44, </div>
-          <div class="text-two">Cathedral City CA 92234</div>
+        <div className="address details">
+          <i className="fas fa-map-marker-alt"></i>
+          <div className="topic">Address</div><br/>
+          <div className="text-one"> 68487 E Palm Canyon Dr, STE 44, </div>
+          <div className="text-two">Cathedral City CA 92234</div>
         </div>
 
-        <div class="phone details">
-          <i class="fas fa-phone-alt"></i>
-          <div class="topic">Phone</div><br/>
-          <div class="text-one"><a href="tel:3234521224"> +1 (323) 452-1224</a></div>
+        <div className="phone details">
+          <i className="fas fa-phone-alt"></i>
+          <div className="topic">Phone</div><br/>
+          <div className="text-one"><a href="tel:3234521224"> +1 (323) 452-1224</a></div>
         </div>
 
-        <div class="email details">
-          <i class="fas fa-envelope"></i>
-          <div class="topic">Email</div><br/>
-          <div class="text-one"> Info@PalmSpringsRehab.biz</div>
+        <div className="email details">
+          <i className="fas fa-envelope"></i>
+          <div className="topic">Email</div><br/>
+          <div className="text-one"> Info@PalmSpringsRehab.biz</div>
         </div>
       </div>
 
-      <div class="right-side">
-        <div class="topic-text">Send us a message</div> <br/>
+      <div className="right-side">
+        <div className="topic-text">Send us a message</div> <br/>
         <p className="topic-text-p">Please call our admission department if you have any questions.</p>
       <form ref={form} onSubmit={sendEmail}>
-        <div class="input-box">
+        <div className="input-box">
         <input type="text" name='name' placeholder='Your Name' required />
         </div>
-        <div class="input-box">
+        <div className="input-box">
         <input type="text" name='email' placeholder='Your Email' required />
         </div>
-        <div class="input-box">
+        <div className="input-box">
         <input type="text" name='phone' placeholder='Your Phone' required />
         </div>
-        <div class="input-box">
+        <div className="input-box">
         <input type="text" name='subject' placeholder='Subject' required />
         </div>
-        <div class="input-box message-box">
+        <div className="input-box message-box">
         <textarea name="message" rows="4" placeholder="How can we help?" required ></textarea>
 
         </div>

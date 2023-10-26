@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 
@@ -50,8 +50,8 @@ import FamilyTherapyPage from './routes/Programs-FamilyTherapy';
 
 
 
-
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
   <BrowserRouter basename={window.location.pathname || ''} >
     <Routes>
       <Route exact path='/' element={<App />} />
@@ -103,6 +103,5 @@ ReactDOM.render(
       <Route exact path='/contact' element={<ContactPage />} />
     </Routes>
   </BrowserRouter>,
-  document.getElementById('root')
 );
 

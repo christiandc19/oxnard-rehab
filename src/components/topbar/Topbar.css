@@ -16,32 +16,29 @@
 .topbar .topbar-content p {
     margin: auto;
     font-size: 14px;
-    color: hsla( 0,0%,0% ,1);
+    color: rgb(255, 255, 255);
 }
 
 .topbar .bar-box1 {
     display: flex;
-    border-right: 1px solid rgba(247, 243, 243, 0.26);
     margin: auto;
-    padding: 0 1rem;
 
 }
 
 .topbar .bar-box1 span {
     font-size: 16px;
-    color: hsla( 0,0%,0% ,1);
+    color: #446588;
 }
 
 .topbar .bar-box2 {
     display: flex;
-    border-right: 1px solid rgba(247, 243, 243, 0.26);
     margin: auto;
-    padding: 0 1rem;
+    padding: 0 .5rem;
 }
 
 .topbar .bar-box2 span {
     font-size: 16px;
-    color: hsla( 0,0%,0% ,1);
+    color: #446588;
 }
 
 
@@ -56,12 +53,12 @@
 .topbar .bar-box3 span {
     margin: auto;
     font-size: 16px;
-    color: hsla( 0,0%,0% ,1);
+    color: #446588;
     padding: 0 .3rem;
 }
 
 .topbar .number a {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 1000px) {
